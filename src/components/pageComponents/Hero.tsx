@@ -4,9 +4,9 @@ import { Calendar, MapPin } from "lucide-react"
 
 const Hero = () => {
     const tags = [
-        { name: '#ԻՆՉ_ԿԱ', url: '' },
-        { name: '#ՓՈՂ_ԿԱ', url: '' },
-        { name: '#STAAP_AAA', url: '' }
+        { name: '#ԻՆՉ_ԿԱ', url: '/#wazaa' },
+        { name: '#ՓՈՂ_ԿԱ', url: '/#money' },
+        { name: '#STAAP_AAA', url: '/#apply_now' }
     ]
 
     return (
@@ -35,21 +35,21 @@ const Hero = () => {
                 </svg>
                 <rect width="100%" height="100%" strokeWidth={0} fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
             </svg>
-            <div className="mx-auto max-w-6xl px-6 pb-24 sm:pb-32 flex flex-col text-center space-y-10 lg:px-8 lg:pt-44 2xl:pt-0 2xl:pb-0 w-full">
-                <DevhacksLogo showSponsor className="h-32 w-auto" />
+            <div className="mx-auto max-w-6xl px-6 pb-24 sm:pb-32 flex flex-col text-center space-y-10 pt-20 lg:px-8 lg:pt-44 2xl:pt-0 2xl:pb-0 w-full">
+                <DevhacksLogo showSponsor className="h-20 sm:h-32 w-auto" />
                 <div>
-                    <p className="text-4xl text-white font-bold">
+                    <p className="text-xl sm:text-4xl text-white font-bold">
                         Տարվա ամենաԴԱԺԱՆ մրցույթը
                     </p>
-                    <p className="text-lg text-primary-text max-w-md mx-auto mt-3 inline-flex items-center gap-1">
-                        <Link target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWV1M2VjZmVtMGg4aXVmazM0ajZuZ3BsM2ggYXJhbUBicmFuc2Zlci5pbw&amp;tmsrc=aram%40bransfer.io" className="underline hover:no-underline inline-flex items-center gap-1"><Calendar className="h-4 w-auto" /> Օգոստոսի 29 10:00 AM</Link> / <Link href="https://goo.gl/maps/zUBaeyTY6pxjjfe98" target="_blank" className="underline hover:no-underline inline-flex items-center gap-1"><MapPin className="h-4 w-auto" /> Վանաձոր VTC</Link>
+                    <p className="text-sm sm:text-lg text-primary-text max-w-md mx-auto mt-3 inline-flex items-center gap-1">
+                        <Link target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWV1M2VjZmVtMGg4aXVmazM0ajZuZ3BsM2ggYXJhbUBicmFuc2Zlci5pbw&amp;tmsrc=aram%40bransfer.io" className="underline hover:no-underline inline-flex items-center gap-1"><Calendar className="h-4 w-auto" /> Օգոստոսի 29 10:00 AM</Link> | <Link href="https://goo.gl/maps/zUBaeyTY6pxjjfe98" target="_blank" className="underline hover:no-underline inline-flex items-center gap-1"><MapPin className="h-4 w-auto" /> Վանաձոր VTC</Link>
                     </p>
                     <div className="text-xs text-white max-w-md mx-auto mt-5">
                         {
                             tags.map((t, index) => (
-                                <span key={index} className="px-2 py-1 rounded-full border-primary/70 border bg-primary/40 mx-1">
+                                <Link key={index} className="px-2 py-1 rounded-full border-primary/70 border bg-primary/40 mx-1" href={t.url}>
                                     {t.name}
-                                </span>
+                                </Link>
                             ))
                         }
                     </div>

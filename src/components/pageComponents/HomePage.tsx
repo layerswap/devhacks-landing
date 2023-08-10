@@ -1,12 +1,15 @@
 import CTASection from "./CTASection"
 import Conditions from "./Conditions"
 import Hero from "./Hero"
-import PrizePool from "./Testimonials"
+import PrizePool from "./PrizePool"
+import Timeline from "./Timeline"
 
 const Home = () => {
     return (
         <>
             <Hero />
+
+            <Timeline />
 
             <Conditions />
 

@@ -65,27 +65,28 @@ const Footer = () => {
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="mx-auto max-w-6xl overflow-hidden px-6 pb-8 lg:px-8 border-t border-white/10 pt-8">
-                <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer">
-                    {footerNavigation.main.map((item) => (
-                        <div key={item.name} className="pb-6">
-                            <Link target="_blank" href={item.href} className="text-sm leading-6 text-primary-text hover:text-opacity-70 duration-200 transition-all">
-                                {item.name}
-                            </Link>
-                        </div>
-                    ))}
-                </nav>
-                <div className="mt-8 flex justify-center space-x-10">
+            <div className="mx-auto max-w-6xl overflow-hidden px-6 py-6 md:grid grid-cols-3  lg:px-8">
+                <div className="flex justify-center space-x-6 order-3 place-self-end">
                     {footerNavigation.social.map((item) => (
-                        <a key={item.name} href={item.href} className="text-primary-text hover:text-opacity-70">
+                        <Link target="_blank" key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-6 w-6" aria-hidden="true" />
-                        </a>
+                        </Link>
                     ))}
                 </div>
-                <p className="mt-8 text-center text-xs leading-5 text-gray-500">
-                    &copy; {new Date().getFullYear()} Bransfer, Inc. All rights reserved.
-                </p>
+                <div className="flex justify-center mt-3 md:mt-0 gap-6 order-2 place-self-center">
+                    <Link target="_blank" href="https://docs.layerswap.io/information/privacy-policy" className="text-xs leading-6 text-primary-text-muted hover:text-opacity-70 duration-200 transition-all">
+                        Privacy Policy
+                    </Link>
+                    <Link target="_blank" href="https://docs.layerswap.io/information/terms-of-services" className="text-xs leading-6 text-primary-text-muted hover:text-opacity-70 duration-200 transition-all">
+                        Terms of Services
+                    </Link>
+                </div>
+                <div className="mt-3 order-1 md:mt-0 place-self-start">
+                    <p className="text-center text-xs text-primary-text-muted leading-6">
+                        &copy; {new Date().getFullYear()} Bransfer, Inc. All rights reserved.
+                    </p>
+                </div>
             </div>
         </footer>
     )
