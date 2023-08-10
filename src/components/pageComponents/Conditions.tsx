@@ -24,7 +24,7 @@ const Conditions = () => {
                                             ԱՆԴԱՄ
                                         </p>
                                         <p className="text-xl">
-                                            ամեն թմում
+                                            ամեն թիմում
                                         </p>
                                     </div>
                                     <div />
@@ -94,7 +94,7 @@ const Conditions = () => {
                         </SpotlightCard>
                         <SpotlightCard className={`max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-7`}>
                             <div className="relative h-full bg-slate-900 p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
-                                <div className="text-2xl font-bold text-center text-white h-full flex flex-col items-center gap-5">
+                                <div className="text-2xl font-bold text-center text-white h-full flex flex-col items-center gap-5 lg:gap-10">
                                     <p className="text-3xl">
                                         Ամբողջ մրցման ընթացքում՝ ԱՆՎՃԱՐ
                                     </p>
@@ -107,12 +107,6 @@ const Conditions = () => {
                                                 <Coffee />
                                                 <p>
                                                     Սուրճ, Թեյ
-                                                </p>
-                                            </div>
-                                            <div className="inline-flex gap-2 items-center">
-                                                <Utensils />
-                                                <p>
-                                                    Նախաճաշ, Ճաշ, Ընթրիք
                                                 </p>
                                             </div>
                                             <div className="inline-flex gap-2 items-center">

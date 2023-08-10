@@ -71,7 +71,7 @@ export default function PrizePool() {
                             </div>
                         </div>
                     </div>
-                    <p className="text-white text-base mt-3"><span className="text-primary">*</span> Առաջին տեղ զբաղեցնողը, կստանա $5000, ինչպես նաև հնարավորություն հավելյալ <strong className="text-primary">+$5000-ի</strong> առանձին քվեարկությամբ</p>
+                    <p className="text-white text-base mt-3"><span className="text-primary">*</span> Առաջին տեղը զբաղեցնող թիմը կստանա $5000 մրցանակ, ինչպես նաև հնարավորություն առանձին քվեարկության միջոցով ստանալ հավելյալ  <strong className="text-primary">$5000</strong></p>
                 </div>
             </div>
         </div>
