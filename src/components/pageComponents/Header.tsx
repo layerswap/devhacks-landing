@@ -19,9 +19,9 @@ const Header = () => {
                     </Link>
                 </div>
                 <div className="flex justify-end">
-                    <button className='text-xs font-bold py-2 px-3 rounded-full text-white bg-primary hover:bg-primary-700 active:bg-primary-800 transition-colors duration-200'>
+                    <Link className='text-xs font-bold py-2 px-3 rounded-full text-white bg-primary hover:bg-primary-700 active:bg-primary-800 transition-colors duration-200' href={'https://layerswap.typeform.com/devhacks'}>
                         Դիմիր հիմա
-                    </button>
+                    </Link>
                 </div>
             </nav>
         </header>
