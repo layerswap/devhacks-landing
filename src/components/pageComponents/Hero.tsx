@@ -12,7 +12,7 @@ const Hero = () => {
     return (
         <div className="relative isolate overflow-hidden xl:h-[calc(100vh-65px)] xl:flex xl:flex-col xl:justify-center xl:items-center">
             <svg
-                className="absolute inset-0 -z-10 h-full w-full stroke-white/10 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+                className="absolute inset-0 -z-10 h-full w-full stroke-primary-700/70 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
                 aria-hidden="true"
             >
                 <defs>
@@ -36,7 +36,7 @@ const Hero = () => {
                 <rect width="100%" height="100%" strokeWidth={0} fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
             </svg>
             <div className="mx-auto max-w-6xl px-6 pb-24 sm:pb-32 flex flex-col text-center space-y-10 pt-20 lg:px-8 lg:pt-44 2xl:pt-0 2xl:pb-0 w-full">
-                <DevhacksLogo showSponsor className="h-20 sm:h-32 w-auto text-primary" />
+                <DevhacksLogo className="h-20 sm:h-32 w-auto text-primary" />
                 <div>
                     <p className="text-xl sm:text-4xl text-white font-bold">
                         Տարվա ամենաԴԱԺԱՆ մրցույթը
