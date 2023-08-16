@@ -29,7 +29,7 @@ const Timeline = () => {
                 <div className="flex flex-col lg:flex-row sm:items-stretch gap-5 w-full mt-8 sm:mt-16">
                     {
                         cards.map((c, index) => (
-                            <div key={index} className="p-8 rounded-xl border border-primary w-full bg-slate-900">
+                            <div key={index} className="p-8 rounded-xl border border-primary w-full bg-darkblue-900">
                                 <p className="text-base mb-6 font-semibold">
                                     {c.heading}
                                 </p>
