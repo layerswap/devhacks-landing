@@ -27,7 +27,7 @@
 @layer base {
 
   body {
-    @apply bg-darkblue-900 text-white;
+    @apply bg-black text-white;
     -webkit-font-smoothing: antialiased;
   }
 

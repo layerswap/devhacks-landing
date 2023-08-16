@@ -65,22 +65,14 @@ const Footer = () => {
             <h2 id="footer-heading" className="sr-only">
                 Footer
             </h2>
-            <div className="mx-auto max-w-6xl overflow-hidden px-6 py-6 md:grid grid-cols-3  lg:px-8">
-                <div className="flex justify-center space-x-6 order-3 place-self-end">
+            <div className="mx-auto max-w-6xl overflow-hidden px-6 py-6 md:grid grid-cols-2  lg:px-8">
+                <div className="flex justify-center space-x-6 order-2 place-self-end">
                     {footerNavigation.social.map((item) => (
                         <Link target="_blank" key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                             <span className="sr-only">{item.name}</span>
                             <item.icon className="h-6 w-6" aria-hidden="true" />
                         </Link>
                     ))}
-                </div>
-                <div className="flex justify-center mt-3 md:mt-0 gap-6 order-2 place-self-center">
-                    <Link target="_blank" href="https://docs.layerswap.io/information/privacy-policy" className="text-xs leading-6 text-primary-text-muted hover:text-opacity-70 duration-200 transition-all">
-                        Privacy Policy
-                    </Link>
-                    <Link target="_blank" href="https://docs.layerswap.io/information/terms-of-services" className="text-xs leading-6 text-primary-text-muted hover:text-opacity-70 duration-200 transition-all">
-                        Terms of Services
-                    </Link>
                 </div>
                 <div className="mt-3 order-1 md:mt-0 place-self-start">
                     <p className="text-center text-xs text-primary-text-muted leading-6">

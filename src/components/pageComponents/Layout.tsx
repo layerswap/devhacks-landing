@@ -39,7 +39,7 @@ const Layout: FC<Props> = ({ children }) => {
                 <meta name="twitter:description" content="Տարվա ամենաԴԱԺԱՆ մրցույթը" />
                 <meta name="twitter:image" content="/opengraphtw.jpg" />
             </Head>
-            <div className="bg-darkblue-950">
+            <div>
 
                 <Header />
 

@@ -27,7 +27,7 @@ const Hero = () => {
                         <path d="M.5 200V.5H200" fill="none" />
                     </pattern>
                 </defs>
-                <svg x="50%" y={-1} className="overflow-visible fill-darkblue-800/20">
+                <svg x="50%" y={-1} className="overflow-visible fill-black/20">
                     <path
                         d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
                         strokeWidth={0}
@@ -36,7 +36,7 @@ const Hero = () => {
                 <rect width="100%" height="100%" strokeWidth={0} fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
             </svg>
             <div className="mx-auto max-w-6xl px-6 pb-24 sm:pb-32 flex flex-col text-center space-y-10 pt-20 lg:px-8 lg:pt-44 2xl:pt-0 2xl:pb-0 w-full">
-                <DevhacksLogo showSponsor className="h-20 sm:h-32 w-auto" />
+                <DevhacksLogo showSponsor className="h-20 sm:h-32 w-auto text-primary" />
                 <div>
                     <p className="text-xl sm:text-4xl text-white font-bold">
                         Տարվա ամենաԴԱԺԱՆ մրցույթը
