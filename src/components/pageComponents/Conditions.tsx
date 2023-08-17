@@ -5,13 +5,13 @@ const Conditions = () => {
 
     return (
         <section id="wazaa" className="py-12 sm:pb-16 lg:pb-32" >
-            <div className="mx-auto max-w-sm sm:max-w-6xl px-6 lg:px-8">
+            <div className="mx-auto max-w-none sm:max-w-6xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-6xl">
                         Պայմաններ
                     </p>
                 </div>
-                <div className="mt-10 sm:mt-12 sm:text-left">
+                <div className="mt-8 sm:mt-16 sm:text-left">
                     <Spotlight className="grid gap-4 lg:grid-cols-7 lg:grid-rows-3 items-start group">
                         <SpotlightCard className="max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-2 ">
                             <div className="relative h-full bg-darkblue-900 p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
@@ -50,13 +50,13 @@ const Conditions = () => {
                                         <div className="inline-flex gap-2 items-center">
                                             <Github />
                                             <p>
-                                                Հղում պրոեկտի source կոդին
+                                                Հղում նախագծի source կոդին
                                             </p>
                                         </div>
                                         <div className="inline-flex gap-2 items-center">
                                             <Bot />
                                             <p>
-                                                Հղում աշխատող պրոտոտիպին
+                                                Հղում աշխատող նախատիպին
                                             </p>
                                         </div>
                                         <div className="inline-flex gap-2 items-center">
@@ -77,10 +77,10 @@ const Conditions = () => {
                                     </p>
                                     <ul className="grid lg:grid-cols-2 gap-4 text-xl mt-5 list-disc">
                                         <li>
-                                            Տեխնիկական բարդույթուն
+                                            Տեխնիկական բարդություն
                                         </li>
                                         <li>
-                                            Պրոեկտի ամբողջականություն
+                                            Նախագծի ամբողջականություն
                                         </li>
                                         <li>
                                             Օգտագործման հարմարավետություն
