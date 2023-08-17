@@ -20,7 +20,7 @@ const Timeline = () => {
 
     return (
         <section className="py-12 sm:pb-16 lg:pb-32" >
-            <div className="mx-auto max-w-sm sm:max-w-6xl px-6 lg:px-8">
+            <div className="mx-auto max-w-none sm:max-w-6xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl lg:text-6xl">
                         Ժամանակացույց
@@ -29,7 +29,7 @@ const Timeline = () => {
                 <div className="flex flex-col lg:flex-row sm:items-stretch gap-5 w-full mt-8 sm:mt-16">
                     {
                         cards.map((c, index) => (
-                            <div key={index} className="p-8 rounded-xl border border-primary w-full bg-slate-900">
+                            <div key={index} className="p-8 rounded-xl border border-primary w-full bg-darkblue-900">
                                 <p className="text-base mb-6 font-semibold">
                                     {c.heading}
                                 </p>

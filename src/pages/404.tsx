@@ -30,7 +30,7 @@ export default function Custom404() {
                 <meta name="twitter:description" content="Move crypto across exchanges, blockchains, and wallets." />
                 <meta name="twitter:image" content="https://layerswap.io/opengraphtw.jpg" />
             </Head>
-            <div className={"bg-darkblue-950 flex flex-col h-screen justify-between "}>
+            <div className={" flex flex-col h-screen justify-between "}>
                 <main className="h-screen flex flex-col justify-center">
                     <div className="text-center">
                         <p className="text-base font-semibold text-primary-600">404</p>

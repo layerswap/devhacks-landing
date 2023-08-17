@@ -2,14 +2,14 @@
 
 export default function PrizePool() {
     return (
-        <div id="money" className=" ">
-            <div className="mx-auto max-w-6xl px-6 lg:px-8 space-y-6">
+        <div id="prize-pool">
+            <div className="mx-auto max-w-none sm:max-w-6xl px-6 lg:px-8 space-y-6">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl lg:text-6xl">
                         Մրցանակներ
                     </p>
                     <p className="text-lg text-white mt-5">
-                        Մրցման ամենախոստումնալից պրոյեկտները մրցանականեր կստանան, իրենց ստեղծած պրոյեկտը առաջ տանելու, և հաջորդ ՄԵԾ բանը ստեղծելու համար
+                        Մրցման ամենախոստումնալից պրոյեկտները մրցանակներ կստանան, իրենց ստեղծած պրոյեկտը առաջ տանելու, և հաջորդ ՄԵԾ բանը ստեղծելու համար
                     </p>
                 </div>
                 <div className="mx-auto mt-12 max-w-2xl lg:max-w-6xl">
@@ -46,7 +46,7 @@ export default function PrizePool() {
                     </div>
 
                     <div className="hidden lg:grid lg:grid-cols-3 place-content-end w-full h-[400px] divide-x divide-black">
-                        <div className="from-[#FF0093]/50 bg-gradient-to-t h-3/4 w-full place-self-end rounded-bl-lg flex flex-col justify-between items-center pb-5">
+                        <div className="from-primary/50 bg-gradient-to-t h-3/4 w-full place-self-end rounded-bl-lg flex flex-col justify-between items-center pb-5">
                             <p className="flex justify-center text-6xl font-bold">
                                 $2,500
                             </p>
@@ -54,7 +54,7 @@ export default function PrizePool() {
                                 Երկրորդ
                             </div>
                         </div>
-                        <div className="from-[#FF0093]/50 bg-gradient-to-t h-[350px] w-full place-self-end flex flex-col justify-between items-center pb-5">
+                        <div className="from-primary/50 bg-gradient-to-t h-[350px] w-full place-self-end flex flex-col justify-between items-center pb-5">
                             <p className="flex justify-center text-6xl font-bold">
                                 $10,000<span className="text-primary">*</span>
                             </p>
@@ -62,7 +62,7 @@ export default function PrizePool() {
                                 Առաջին
                             </div>
                         </div>
-                        <div className="from-[#FF0093]/50 bg-gradient-to-t h-1/2 w-full place-self-end rounded-br-lg flex flex-col justify-between items-center pb-5">
+                        <div className="from-primary/50 bg-gradient-to-t h-1/2 w-full place-self-end rounded-br-lg flex flex-col justify-between items-center pb-5">
                             <p className="flex justify-center text-6xl font-bold">
                                 $1,000
                             </p>
