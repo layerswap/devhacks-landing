@@ -18,7 +18,7 @@ const Hero = () => {
                     <p className="text-xl sm:text-4xl text-white font-bold">
                         Տարվա ամենաԴԱԺԱՆ մրցույթը
                     </p>
-                    <p className="text-sm sm:text-lg text-primary-text max-w-md mx-auto mt-3 inline-flex items-center gap-1">
+                    <p className="text-xs sm:text-lg text-primary-text max-w-md mx-auto mt-3 inline-flex items-center gap-1">
                         <Link target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWV1M2VjZmVtMGg4aXVmazM0ajZuZ3BsM2ggYXJhbUBicmFuc2Zlci5pbw&amp;tmsrc=aram%40bransfer.io" className="underline hover:no-underline inline-flex items-center gap-1"><Calendar className="h-4 w-auto" /> Սեպտեմբերի 29 10:00 AM</Link> | <Link href="https://goo.gl/maps/zUBaeyTY6pxjjfe98" target="_blank" className="underline hover:no-underline inline-flex items-center gap-1"><MapPin className="h-4 w-auto" /> Վանաձոր VTC</Link>
                     </p>
                     <div className="text-xs text-white max-w-md mx-auto mt-5">
@@ -35,7 +35,7 @@ const Hero = () => {
                             href='https://layerswap.typeform.com/devhacks'
                             className="rounded-full w-fit mx-auto bg-primary px-6 py-2.5 text-lg font-semibold text-white shadow-sm hover:bg-primary-700 active:bg-primary-800 transition-colors duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                         >
-                            Դիմիր հիմա
+                            Գրանցել թիմ
                         </Link>
                     </div>
                 </div>

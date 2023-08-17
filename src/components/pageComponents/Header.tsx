@@ -20,7 +20,7 @@ const Header = () => {
                 </div>
                 <div className="flex justify-end">
                     <Link className='text-xs font-bold py-2 px-3 rounded-full text-white bg-primary hover:bg-primary-700 active:bg-primary-800 transition-colors duration-200' href={'https://layerswap.typeform.com/devhacks'}>
-                        Դիմիր հիմա
+                        Գրանցել թիմ
                     </Link>
                 </div>
             </nav>

@@ -1,10 +1,12 @@
+import Link from "next/link"
+
 const Timeline = () => {
 
     const cards = [
         {
             heading: <>Մրցման տեղը</>,
             name: <>Վանաձոր <span className="text-white">VTC</span></>,
-            description: <><span className="text-white">Շինարարներ</span> 12</>
+            description: <Link href='https://goo.gl/maps/zUBaeyTY6pxjjfe98' target="_blank" className="hover:underline"><span className="text-white">Շինարարներ</span> 12</Link>
         },
         {
             heading: <>Սկիզբ</>,
