@@ -222,9 +222,21 @@ textarea:disabled::placeholder {
   --space-y-reverse: 1
 }
 
-.left-shadow {
-  background: linear-gradient(90deg, rgba(11, 17, 35, 0) 0%, rgba(11, 17, 35, 1) 40%);
-  height: 100%;
-  left: 0;
-  top: 0;
+
+#route {
+  margin-top: 200px;
+}
+.code {
+	height:150px;
+	width:250px;
+	background:#000;
+	color:#fff;
+	margin:20px;
+	width: 40%;
+    clear: both;
+    height: 200px;
+    background: #000;
+    border-radius: 2px;
+    margin: 100vh 0;
+    padding: 10px;
 }

@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 const Timeline = () => {
 
@@ -10,7 +11,7 @@ const Timeline = () => {
         },
         {
             heading: <>Սկիզբ</>,
-            name: <>10:00 <span className="text-white">AM</span></>,
+            name: <>11:00 <span className="text-white">AM</span></>,
             description: <><span className="text-white">Սեպտեմբեր</span> 29</>
         },
         {
@@ -44,6 +45,18 @@ const Timeline = () => {
                             </div>
                         ))
                     }
+                </div>
+                <div className="p-8 rounded-xl border border-primary w-full bg-darkblue-900 mt-5">
+                    <p className="text-base mb-6 font-semibold">
+                        Shrjanaknerum
+                    </p>
+                    <Image src={"/TechWeekBanner.svg"} width={1000} height={100} alt={""} className="rounded-lg w-full"/>
+                    {/* <p className="text-primary text-3xl font-bold">
+                        {c.name}
+                    </p>
+                    <p className="text-primary text-3xl font-bold">
+                        {c.description}
+                    </p> */}
                 </div>
             </div>
         </section>
