@@ -28,7 +28,7 @@ const Layout: FC<Props> = ({ children }) => {
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="ԴևHacks" />
                 <meta property="og:description" content="Տարվա ամենաԴԱԺԱՆ մրցույթը" />
-                <meta property="og:image" content="/opengraph.jpg?v=2" />
+                <meta property="og:image" content="/opengraph.jpg" />
 
                 {/* Twitter Meta Tags */}
                 <meta name="twitter:card" content="summary_large_image" />

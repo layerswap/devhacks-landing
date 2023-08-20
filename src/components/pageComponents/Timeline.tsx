@@ -29,7 +29,7 @@ const Timeline = () => {
                         Ժամանակացույց
                     </p>
                 </div>
-                <Image src={"/TechWeekBanner.png"} width={1000} height={100} alt={""} className="rounded-lg w-1/2 my-8 sm:my-16 mx-auto" />
+                <Image src={"/TechWeekBanner.png"} width={1000} height={100} alt={""} className="rounded-lg w-1/4 my-8 sm:my-16 mx-auto" />
                 <div className="flex flex-col lg:flex-row sm:items-stretch gap-5 w-full">
                     {
                         cards.map((c, index) => (
