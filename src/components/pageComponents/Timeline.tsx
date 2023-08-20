@@ -22,14 +22,18 @@ const Timeline = () => {
     ]
 
     return (
-        <section className="py-12 sm:pb-16 lg:pb-32" >
+        <section className="py-12 sm:pb-16 lg:pb-32 z-50" >
             <div className="mx-auto max-w-none sm:max-w-6xl px-6 lg:px-8">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl lg:text-6xl">
                         Ժամանակացույց
                     </p>
                 </div>
-                <Image src={"/TechWeekBanner.png"} width={1000} height={100} alt={""} className="rounded-lg w-1/4 my-8 sm:my-16 mx-auto" />
+                <div className="lg:w-1/4 my-8 sm:my-16 mx-auto">
+                    <Link href={'https://techweek.am/'} target="_blank" className="hover:opacity-80">
+                        <Image src={"/TechWeekBanner.png"} width={1000} height={100} alt={"teckWeekBanner"} />
+                    </Link>
+                </div>
                 <div className="flex flex-col lg:flex-row sm:items-stretch gap-5 w-full">
                     {
                         cards.map((c, index) => (

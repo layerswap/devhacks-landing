@@ -71,10 +71,10 @@ const AnimatedLogo = () => {
     }, [])
 
     return (
-        <div className='absolute -top-1 right-0 w-full h-auto' id="route">
+        <div className='absolute -top-1 right-0 w-full h-auto -z-10' id="route">
             {
                 isClient &&
-                <svg viewBox="0 0 1635 3373" className='' fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg viewBox="0 0 1635 3373" className={!isClient ? 'hidden' : ''} fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="Logo">
                         <path d="M713.582 104.11C713.422 103.14 713.342 102.09 713.342 100.96V49.0996H699.602V102.06C699.602 105.57 700.172 108.79 701.252 111.63C708.782 108.4 712.142 105.94 713.582 104.11Z" fill="#974DF7" />
                         <path d="M729.302 112.649C725.672 117.209 720.012 120.629 714.512 123.929C716.412 124.459 718.472 124.739 720.652 124.739C730.352 124.739 734.722 120.479 736.462 116.779H738.422V123.859H762.522V112.219H751.942V81.1494H738.202V97.2594C738.202 105.339 735.022 110.729 729.402 112.519C729.372 112.559 729.332 112.609 729.302 112.649Z" fill="#974DF7" />
