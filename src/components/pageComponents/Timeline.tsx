@@ -29,7 +29,8 @@ const Timeline = () => {
                         Ժամանակացույց
                     </p>
                 </div>
-                <div className="flex flex-col lg:flex-row sm:items-stretch gap-5 w-full mt-8 sm:mt-16">
+                <Image src={"/TechWeekBanner.png"} width={1000} height={100} alt={""} className="rounded-lg w-1/2 my-8 sm:my-16 mx-auto" />
+                <div className="flex flex-col lg:flex-row sm:items-stretch gap-5 w-full">
                     {
                         cards.map((c, index) => (
                             <div key={index} className="p-8 rounded-xl border border-primary w-full bg-darkblue-900">
@@ -45,18 +46,6 @@ const Timeline = () => {
                             </div>
                         ))
                     }
-                </div>
-                <div className="p-8 rounded-xl border border-primary w-full bg-darkblue-900 mt-5">
-                    <p className="text-base mb-6 font-semibold">
-                        Shrjanaknerum
-                    </p>
-                    <Image src={"/TechWeekBanner.svg"} width={1000} height={100} alt={""} className="rounded-lg w-full"/>
-                    {/* <p className="text-primary text-3xl font-bold">
-                        {c.name}
-                    </p>
-                    <p className="text-primary text-3xl font-bold">
-                        {c.description}
-                    </p> */}
                 </div>
             </div>
         </section>
