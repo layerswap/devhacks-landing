@@ -1,5 +1,4 @@
 import $ from 'jquery';
-import DevhacksLogo from './DevhacksLogo';
 import { useEffect, useState } from 'react';
 
 const AnimatedLogo = () => {

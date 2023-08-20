@@ -31,9 +31,7 @@ const Hero = () => {
                         }
                     </div>
                     <p className="mt-4 text-darkblue-100">
-                        Գրանցումը, բաց է մինչև
-                        <br />
-                        Սեպտեմբերի 20
+                        Գրանցվել մինչև <span className="text-primary">Սեպտեմբերի 15-ը</span>
                     </p>
                     <div className="mt-6">
                         <Link
