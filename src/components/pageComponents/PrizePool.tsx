@@ -9,7 +9,7 @@ export default function PrizePool() {
                         Մրցանակներ
                     </p>
                     <p className="text-lg text-white mt-5">
-                        Մրցման ամենախոստումնալից պրոյեկտները մրցանակներ կստանան, իրենց ստեղծած պրոյեկտը առաջ տանելու, և հաջորդ ՄԵԾ բանը ստեղծելու համար
+                        Մրցման ամենախոստումնալից նախագծերը մրցանակներ կստանան, իրենց ստեղծած նախագիծը առաջ տանելու, և հաջորդ ՄԵԾ բանը ստեղծելու համար
                     </p>
                 </div>
                 <div className="mx-auto mt-12 max-w-2xl lg:max-w-6xl">
@@ -20,7 +20,7 @@ export default function PrizePool() {
                             </div>
                             <div className="text-5xl font-bold text-center space-y-1">
                                 <p className="text-primary">
-                                    $5000
+                                    $10000
                                 </p>
                             </div>
                             <div />
