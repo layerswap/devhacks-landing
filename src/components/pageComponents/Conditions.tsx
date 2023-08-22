@@ -75,17 +75,19 @@ const Conditions = () => {
                                     <p className="text-3xl text-primary">
                                         Հաղթողների ընտրությունը
                                     </p>
-                                    <ul className="grid lg:grid-cols-2 gap-2 text-xl mt-5 text-center">
-                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg px-10 sm:px-1">
-                                            Տեխնիկական բարդություն
+                                    <ul className="grid md:grid-cols-2 gap-2 text-xl mt-5 text-center">
+                                        <li className="bg-darkblue-800 p-1 w-full rounded-lg">
+                                            Տեխնիկական 
+                                            <br/>
+                                            բարդություն
                                         </li>
-                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg px-10 sm:px-1">
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
                                             Նախագծի ամբողջականություն
                                         </li>
-                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg px-10 sm:px-1">
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
                                             Օգտագործման հարմարավետություն
                                         </li>
-                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg px-10 sm:px-1">
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
                                             Կատարման իրատեսականություն
                                         </li>
                                     </ul>
