@@ -30,7 +30,7 @@ const Timeline = () => {
                     </p>
                 </div>
                 <div className="lg:w-1/4 my-8 sm:my-16 mx-auto">
-                    <Link href={'https://techweek.am/'} target="_blank" className="hover:opacity-80">
+                    <Link href={'https://www.facebook.com/techweekarmenia'} target="_blank" className="hover:opacity-80">
                         <Image src={"/TechWeekBanner.png"} width={1600} height={700} alt={"teckWeekBanner"} />
                     </Link>
                 </div>
