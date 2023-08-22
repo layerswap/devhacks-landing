@@ -35,7 +35,7 @@ const Conditions = () => {
                             <div className="relative h-full  p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
                                 <div className="text-2xl sm:text-4xl font-bold text-center text-white h-full flex flex-col items-center justify-center">
                                     <p className="max-w-xl">
-                                        Գաղափարը <span className="text-primary">ամբողջությամբ</span> պետք է իրագործվի տեղում` 48 ժամում
+                                        Գաղափարն <span className="text-primary">ամբողջությամբ</span> պետք է իրագործվի տեղում` 48 ժամում
                                     </p>
                                 </div>
                             </div>

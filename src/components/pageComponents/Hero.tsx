@@ -33,7 +33,7 @@ const Hero = () => {
                         Հավաքի՛ր թիմ, մտածի՛ր նախագիծ, Սեպտեմբերի 29-ին <span className="text-white">արի՛ Վանաձոր</span>։ Իրականացրու՛ նախագիծդ, ներկայացրու՛ այն և <span className="text-white">հաղթի՛ր $10,000</span>։
                     </p>
                     <p className="text-xs sm:text-lg text-darkblue-100 max-w-md mx-auto mt-3 inline-flex items-center gap-1">
-                        <Link target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWV1M2VjZmVtMGg4aXVmazM0ajZuZ3BsM2ggYXJhbUBicmFuc2Zlci5pbw&amp;tmsrc=aram%40bransfer.io" className="underline hover:no-underline inline-flex items-center gap-1"><Calendar className="h-4 w-auto" /> Սեպտեմբերի 29 11:00 AM</Link> | <Link href="https://goo.gl/maps/zUBaeyTY6pxjjfe98" target="_blank" className="underline hover:no-underline inline-flex items-center gap-1"><MapPin className="h-4 w-auto" /> Վանաձոր ՎՏԿ</Link>
+                        <Link target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=MWV1M2VjZmVtMGg4aXVmazM0ajZuZ3BsM2ggYXJhbUBicmFuc2Zlci5pbw&amp;tmsrc=aram%40bransfer.io" className="underline hover:no-underline inline-flex items-center gap-1"><Calendar className="h-4 w-auto" /> Սեպտեմբերի 29 11:00 AM</Link> | <Link href="https://goo.gl/maps/zUBaeyTY6pxjjfe98" target="_blank" className="underline hover:no-underline inline-flex items-center gap-1"><MapPin className="h-4 w-auto" /> Վանաձոր, ՎՏԿ</Link>
                     </p>
                     <div className={`${hide && 'opacity-0'} left-[calc(50%-15px)] top-[90vh] absolute transition-all duration-200`}>
                         <div className="scrolldown ">
