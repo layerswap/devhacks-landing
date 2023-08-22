@@ -6,18 +6,18 @@ const Timeline = () => {
     const cards = [
         {
             heading: <>Մրցման տեղը</>,
-            name: <>Վանաձոր <span className="text-white">VTC</span></>,
-            description: <Link href='https://goo.gl/maps/zUBaeyTY6pxjjfe98' target="_blank" className="hover:underline"><span className="text-white">Շինարարներ</span> 12</Link>
+            name: <>Վանաձոր VTC</>,
+            description: <Link href='https://goo.gl/maps/zUBaeyTY6pxjjfe98' target="_blank" className="underline hover:no-underline decoration-primary"><span className="text-white">Շինարարներ</span> 12</Link>
         },
         {
             heading: <>Սկիզբ</>,
-            name: <>11:00 <span className="text-white">AM</span></>,
-            description: <><span className="text-white">Սեպտեմբեր</span> 29</>
+            name: <>11:00 AM</>,
+            description: <>Սեպտեմբեր 29</>
         },
         {
             heading: <>Վերջ</>,
-            name: <>19:00 <span className="text-white">PM</span></>,
-            description: <><span className="text-white">Սեպտեմբեր</span> 30</>
+            name: <>19:00 PM</>,
+            description: <>Սեպտեմբեր 30</>
         }
     ]
 
@@ -31,20 +31,20 @@ const Timeline = () => {
                 </div>
                 <div className="lg:w-1/4 my-8 sm:my-16 mx-auto">
                     <Link href={'https://techweek.am/'} target="_blank" className="hover:opacity-80">
-                        <Image src={"/TechWeekBanner.png"} width={1000} height={100} alt={"teckWeekBanner"} />
+                        <Image src={"/TechWeekBanner.png"} width={1600} height={700} alt={"teckWeekBanner"} />
                     </Link>
                 </div>
                 <div className="flex flex-col lg:flex-row sm:items-stretch gap-5 w-full">
                     {
                         cards.map((c, index) => (
-                            <div key={index} className="p-8 rounded-xl border border-primary w-full bg-darkblue-900">
-                                <p className="text-base mb-6 font-semibold">
+                            <div key={index} className="p-8 rounded-xl w-full bg-darkblue-900">
+                                <p className="text-base mb-6 font-medium rounded-full px-2 py-1 bg-primary w-fit text-black">
                                     {c.heading}
                                 </p>
-                                <p className="text-primary text-3xl font-bold">
+                                <p className=" text-3xl font-bold">
                                     {c.name}
                                 </p>
-                                <p className="text-primary text-3xl font-bold">
+                                <p className=" text-3xl font-bold">
                                     {c.description}
                                 </p>
                             </div>

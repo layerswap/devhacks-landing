@@ -1,5 +1,4 @@
-import { FC, useContext } from "react"
-import Header from '@/components/pageComponents/Header'
+import { FC } from "react"
 import Head from 'next/head'
 import Footer from '@/components/pageComponents/Footer'
 import Script from "next/script";
@@ -69,8 +68,6 @@ const Layout: FC<Props> = ({ children }) => {
                     </svg>
                     <rect width="100%" height="100%" strokeWidth={0} fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)" />
                 </svg>
-
-                <Header />
 
                 {children}
 

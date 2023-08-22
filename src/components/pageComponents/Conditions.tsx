@@ -12,8 +12,8 @@ const Conditions = () => {
                     </p>
                 </div>
                 <div className="mt-8 sm:mt-16 sm:text-left">
-                    <Spotlight className="grid gap-4 lg:grid-cols-7 lg:grid-rows-3 items-start group">
-                        <SpotlightCard className="max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-2 -z-20">
+                    <div className="grid gap-4 lg:grid-cols-7 lg:grid-rows-3 items-start group">
+                        <div className="h-full bg-darkblue-800 rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-2 -z-20">
                             <div className="relative h-full bg-darkblue-900 p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
                                 <div className="h-full flex flex-col justify-center">
                                     <div className="text-4xl font-bold text-center">
@@ -30,8 +30,8 @@ const Conditions = () => {
                                     <div />
                                 </div>
                             </div>
-                        </SpotlightCard>
-                        <SpotlightCard className={`max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-5`}>
+                        </div>
+                        <div className={`h-full bg-darkblue-800 rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-5`}>
                             <div className="relative h-full bg-darkblue-900 p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
                                 <div className="text-2xl sm:text-4xl font-bold text-center text-white h-full flex flex-col items-center justify-center">
                                     <p className="max-w-xl">
@@ -39,8 +39,8 @@ const Conditions = () => {
                                     </p>
                                 </div>
                             </div>
-                        </SpotlightCard>
-                        <SpotlightCard className={`max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-3`}>
+                        </div>
+                        <div className={`h-full bg-darkblue-800 rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-3`}>
                             <div className="relative h-full bg-darkblue-900 p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
                                 <div className="h-full flex flex-col items-center font-bold text-left gap-5">
                                     <p className="text-3xl text-primary text-center">
@@ -68,8 +68,8 @@ const Conditions = () => {
                                     </div>
                                 </div>
                             </div>
-                        </SpotlightCard>
-                        <SpotlightCard className="max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-4 -z-20">
+                        </div>
+                        <div className="h-full bg-darkblue-800 rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-4 -z-20">
                             <div className="relative h-full bg-darkblue-900 p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
                                 <div className="font-bold text-white h-full flex flex-col items-center justify">
                                     <p className="text-3xl text-primary">
@@ -91,8 +91,8 @@ const Conditions = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </SpotlightCard>
-                        <SpotlightCard className={`max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-7`}>
+                        </div>
+                        <div className={`h-full bg-darkblue-800 rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-7`}>
                             <div className="relative h-full bg-darkblue-900 p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
                                 <div className="text-2xl font-bold text-center text-white h-full flex flex-col items-center gap-5 lg:gap-10">
                                     <p className="text-3xl">
@@ -125,8 +125,8 @@ const Conditions = () => {
                                     </div>
                                 </div>
                             </div>
-                        </SpotlightCard>
-                    </Spotlight>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

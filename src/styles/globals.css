@@ -27,7 +27,7 @@
 @layer base {
 
   body {
-    @apply bg-black text-white styled-scroll;
+    @apply bg-[#010101] text-white styled-scroll;
     -webkit-font-smoothing: antialiased;
   }
 
