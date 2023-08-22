@@ -21,7 +21,7 @@ export default function PrizePool() {
                             </div>
                             <div className="text-5xl font-bold text-center space-y-1">
                                 <p className="text-primary">
-                                    $10000
+                                    $10,000
                                 </p>
                             </div>
                             <div />
@@ -31,7 +31,7 @@ export default function PrizePool() {
                                 🥈 Երկրորդ
                             </div>
                             <p className="text-primary text-5xl font-bold text-center space-y-1">
-                                $2500
+                                $2,500
                             </p>
                             <div />
                         </div>
@@ -40,7 +40,7 @@ export default function PrizePool() {
                                 🥉 Երրորդ
                             </div>
                             <p className="text-primary text-5xl font-bold text-center space-y-1">
-                                $1000
+                                $1,000
                             </p>
                             <div />
                         </div>
@@ -72,7 +72,7 @@ export default function PrizePool() {
                             </div>
                         </div>
                     </div>
-                    <p className="text-white text-base mt-3"><span className="text-primary">*</span> Առաջին տեղը զբաղեցնող թիմը կստանա $5000 մրցանակ, ինչպես նաև հնարավորություն առանձին քվեարկության միջոցով ստանալ հավելյալ  <strong className="text-primary">$5000</strong></p>
+                    <p className="text-white text-base mt-3"><span className="text-primary">*</span> Առաջին տեղը զբաղեցնող թիմը կստանա $5,000 մրցանակ, ինչպես նաև հնարավորություն առանձին քվեարկության միջոցով ստանալ հավելյալ  <strong className="text-primary">$5,000</strong></p>
                 </div>
             </div>
         </div>
