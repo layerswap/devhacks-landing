@@ -85,7 +85,7 @@ const AnimatedLogo = () => {
     }, [])
 
     return (
-        <div className='absolute flex justify-center top-[30vh] right-0 -z-10 h-full w-full' id="route">
+        <div className={`${width <= 380 ? 'top-[25vh]' : 'top-[30vh]'} absolute flex justify-center right-0 -z-10 h-full w-full`} id="route">
             {typeof document !== 'undefined' && isClient &&
                 width <= 768 ?
                 <svg style={{ opacity: 0 }} id='animatedLogo' xmlns="http://www.w3.org/2000/svg" width="457" height="5142" viewBox="0 0 457 5160" fill="none">
