@@ -76,16 +76,16 @@ const Conditions = () => {
                                         Հաղթողների ընտրությունը
                                     </p>
                                     <ul className="grid lg:grid-cols-2 gap-2 text-xl mt-5 text-center">
-                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg px-2 sm:px-1">
                                             Տեխնիկական բարդություն
                                         </li>
-                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg px-2 sm:px-1">
                                             Նախագծի ամբողջականություն
                                         </li>
-                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg px-2 sm:px-1">
                                             Օգտագործման հարմարավետություն
                                         </li>
-                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg px-2 sm:px-1">
                                             Կատարման իրատեսականություն
                                         </li>
                                     </ul>
