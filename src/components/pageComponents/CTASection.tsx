@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function CTASection() {
 
     return (
-        <div id="apply_now" className="relative isolate pb-44 pt-56">
+        <div className="relative isolate pb-44 pt-56">
             <div className="mx-auto max-w-6xl px-6 lg:px-8 text-center">
                 <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
                     <span className="text-primary">Դևը</span> սպասում է քեզ...

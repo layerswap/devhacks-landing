@@ -5,11 +5,12 @@ import DevhacksLogo from "./DevhacksLogo"
 const Hero = () => {
 
     return (
-        <div className="overflow-hidden xl:h-[calc(100vh-65px)] xl:flex xl:flex-col xl:justify-center xl:items-center">
+        <div className="overflow-hidden lg:h-[calc(100vh-65px)] lg:flex lg:flex-col lg:justify-center lg:items-center">
 
             <div className="mx-auto max-w-6xl px-6 pb-24 sm:pb-32 flex flex-col text-center space-y-10 pt-20 lg:px-8 lg:pt-44 2xl:pt-0 2xl:pb-0 w-full">
-                <DevhacksLogo className="h-20 sm:h-32 w-auto lg:hidden text-primary" />
+                <DevhacksLogo className="h-20 sm:h-32 w-auto xl:hidden text-primary" />
                 <div>
+                    <div id="start" />
                     <p className="text-xl sm:text-4xl text-white font-bold">
                         Տարվա ամենա<span className="text-primary">ԴԱԺԱՆ</span> մրցույթը
                     </p>
