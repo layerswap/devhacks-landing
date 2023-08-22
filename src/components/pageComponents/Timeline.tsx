@@ -6,8 +6,8 @@ const Timeline = () => {
     const cards = [
         {
             heading: <>Մրցման տեղը</>,
-            name: <>Վանաձոր VTC</>,
-            description: <Link href='https://goo.gl/maps/zUBaeyTY6pxjjfe98' target="_blank" className="underline hover:no-underline decoration-primary"><span className="text-white">Շինարարներ</span> 12</Link>
+            name: <>Վանաձոր ՎՏԿ</>,
+            description: <Link href='https://goo.gl/maps/zUBaeyTY6pxjjfe98' target="_blank" className="underline hover:no-underline decoration-primary"><span className="text-white">Շինարարների</span> 12</Link>
         },
         {
             heading: <>Սկիզբ</>,
