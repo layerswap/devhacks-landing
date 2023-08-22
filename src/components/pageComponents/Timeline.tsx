@@ -16,8 +16,8 @@ const Timeline = () => {
         },
         {
             heading: <>Վերջ</>,
-            name: <>19:00 PM</>,
-            description: <>Սեպտեմբեր 30</>
+            name: <>15:00 PM</>,
+            description: <>Հոկտեմբեր 1</>
         }
     ]
 
@@ -37,7 +37,7 @@ const Timeline = () => {
                 <div className="flex flex-col lg:flex-row sm:items-stretch gap-5 w-full">
                     {
                         cards.map((c, index) => (
-                            <div key={index} className="p-8 rounded-xl w-full bg-darkblue-900">
+                            <div key={index} className="p-8 rounded-xl w-full bg-darkblue-800 bg-opacity-50 backdrop-blur-md ">
                                 <p className="text-base mb-6 font-medium rounded-full px-2 py-1 bg-primary w-fit text-black">
                                     {c.heading}
                                 </p>

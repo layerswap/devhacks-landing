@@ -8,8 +8,9 @@ export default function PrizePool() {
                     <p className="mt-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl lg:text-6xl">
                         Մրցանակներ
                     </p>
+
                     <p className="text-lg text-white mt-5">
-                        Մրցման ամենախոստումնալից նախագծերը մրցանակներ կստանան, իրենց ստեղծած նախագիծը առաջ տանելու, և հաջորդ ՄԵԾ բանը ստեղծելու համար
+                        Մրցման ամենախոստումնալից նախագծերը մրցանակներ կստանան` իրենց ստեղծած նախագիծը առաջ տանելու և հաջորդ ՄԵԾ բանը ստեղծելու համար
                     </p>
                 </div>
                 <div className="mx-auto mt-12 max-w-2xl lg:max-w-6xl">

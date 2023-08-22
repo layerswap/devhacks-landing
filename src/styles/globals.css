@@ -261,3 +261,7 @@ textarea:disabled::placeholder {
     transform: translate(0, 8px);
   }
 }
+
+.blend {
+  backdrop-filter: opacity(1) !important; /* fixes the chrome-bug */
+}
