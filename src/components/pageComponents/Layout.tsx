@@ -41,12 +41,12 @@ const Layout: FC<Props> = ({ children }) => {
             </Head>
             <Script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" />
 
-            <div className="relative isolate">
+            <div className="relative isolate overflow-hidden">
 
                 <AnimatedLogo />
 
                 <svg
-                    className="absolute inset-0 -z-20 h-full w-full stroke-primary-700/70 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+                    className="absolute inset-0 -z-20 h-full w-full stroke-gray-700/70 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
                     aria-hidden="true"
                 >
                     <defs>

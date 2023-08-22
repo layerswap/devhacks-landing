@@ -17,11 +17,11 @@
   input[type="number"] {
     -moz-appearance: textfield;
   }
-  
+
   .styled-scroll {
-    @apply scrollbar:!w-1.5 scrollbar:!h-1.5 scrollbar:bg-darkblue-800  scrollbar-thumb:!rounded scrollbar-thumb:!bg-slate-300  scrollbar-thumb:!bg-darkblue-500/50;
+    @apply scrollbar:!w-1.5 scrollbar:!h-1.5 scrollbar:bg-darkblue-800 scrollbar-thumb:!rounded scrollbar-thumb:!bg-slate-300 scrollbar-thumb:!bg-darkblue-500/50;
   }
-  
+
 }
 
 @layer base {
@@ -220,4 +220,44 @@ textarea:disabled::placeholder {
 
 .space-y-reverse {
   --space-y-reverse: 1
+}
+
+
+.scrolldown {
+  border: 2px solid #FFFFFF;
+  opacity: 0.8;
+  border-radius: 30px;
+  height: 46px;
+  margin: 0 auto 8px;
+  text-align: center;
+  width: 30px;
+}
+
+.scrolldown-p1,
+.scrolldown-p2 {
+  animation-duration: 2.5s;
+  animation-name: scrolldown;
+  animation-iteration-count: infinite;
+  fill: #FFFFFF;
+}
+
+.scrolldown-p2 {
+  animation-delay: 1.25s;
+}
+
+@keyframes scrolldown {
+  0% {
+    opacity: 0;
+    transform: translate(0, -8px);
+  }
+
+  50% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(0, 8px);
+  }
 }
