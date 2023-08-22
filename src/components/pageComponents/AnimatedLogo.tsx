@@ -33,12 +33,10 @@ const AnimatedLogo = () => {
             //draw the line
             function drawLine(line: any) {
                 if (typeof document !== 'undefined' && typeof window !== 'undefined') {
-                    var docHeight = $(document).height() || 0
-                    var windowHeight = $(window).height() || 0
-                    var windowScroll = $(window)?.scrollTop() || 0
+                    var scrollY = window.scrollY;
+                    var maxScrollY = document.documentElement.scrollHeight - window.innerHeight;
                     var pathLength = line.getTotalLength(),
-                        maxScrollTop = docHeight - windowHeight,
-                        percentDone = windowScroll / maxScrollTop,
+                        percentDone = scrollY / maxScrollY,
                         length = percentDone * pathLength;
                     line.style.strokeDasharray = [length, pathLength].join(' ');
                     line.style.stroke = "#974DF7"

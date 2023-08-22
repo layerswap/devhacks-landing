@@ -40,7 +40,7 @@ const Layout: FC<Props> = ({ children }) => {
             </Head>
             <Script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" />
 
-            <div className="relative isolate overflow-hidden">
+            <div className="relative isolate overflow-hidden ">
 
                 <AnimatedLogo />
 

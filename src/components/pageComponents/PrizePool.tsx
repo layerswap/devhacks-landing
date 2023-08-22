@@ -16,7 +16,7 @@ export default function PrizePool() {
                     <div className="grid lg:grid-cols-3 lg:hidden">
                         <div className="h-full flex flex-col items-center gap-5">
                             <div className="px-3 py-1.5 text-xs font-bold rounded-full text-black bg-white">
-                                Առաջին
+                                🥇 Առաջին
                             </div>
                             <div className="text-5xl font-bold text-center space-y-1">
                                 <p className="text-primary">
@@ -27,7 +27,7 @@ export default function PrizePool() {
                         </div>
                         <div className="h-full flex flex-col items-center gap-5">
                             <div className="px-3 py-1.5 text-xs font-bold rounded-full text-black bg-white">
-                                Երկրորդ
+                                🥈 Երկրորդ
                             </div>
                             <p className="text-primary text-5xl font-bold text-center space-y-1">
                                 $2500
@@ -36,7 +36,7 @@ export default function PrizePool() {
                         </div>
                         <div className="h-full flex flex-col items-center gap-5">
                             <div className="px-3 py-1.5 text-xs font-bold rounded-full text-black bg-white">
-                                Երրորդ
+                                🥉 Երրորդ
                             </div>
                             <p className="text-primary text-5xl font-bold text-center space-y-1">
                                 $1000
@@ -51,7 +51,7 @@ export default function PrizePool() {
                                 $2,500
                             </p>
                             <div className="px-3 py-1.5 text-lg rounded-full text-black bg-white">
-                                Երկրորդ
+                                🥈 Երկրորդ
                             </div>
                         </div>
                         <div className="from-primary/50 bg-gradient-to-t h-[350px] w-full place-self-end flex flex-col justify-between items-center pb-5">
@@ -59,7 +59,7 @@ export default function PrizePool() {
                                 $10,000<span className="text-primary">*</span>
                             </p>
                             <div className="px-3 py-1.5 text-2xl rounded-full text-black bg-white">
-                                Առաջին
+                                🥇 Առաջին
                             </div>
                         </div>
                         <div className="from-primary/50 bg-gradient-to-t h-1/2 w-full place-self-end rounded-br-lg flex flex-col justify-between items-center pb-5">
@@ -67,7 +67,7 @@ export default function PrizePool() {
                                 $1,000
                             </p>
                             <div className="px-3 py-1.5 text-base rounded-full text-black bg-white">
-                                Երրորդ
+                                🥉 Երրորդ
                             </div>
                         </div>
                     </div>

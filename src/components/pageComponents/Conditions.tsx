@@ -35,18 +35,18 @@ const Conditions = () => {
                             <div className="relative h-full bg-darkblue-900 p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
                                 <div className="text-2xl sm:text-4xl font-bold text-center text-white h-full flex flex-col items-center justify-center">
                                     <p className="max-w-xl">
-                                        Գաղափարը <span className="text-primary">ամբողջությամբ</span> պետք է իրագործվի տեղում
+                                        Գաղափարը <span className="text-primary">ամբողջությամբ</span> պետք է իրագործվի տեղում` 24 ժամում
                                     </p>
                                 </div>
                             </div>
                         </div>
                         <div className={`h-full bg-darkblue-800 rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-3`}>
                             <div className="relative h-full bg-darkblue-900 p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
-                                <div className="h-full flex flex-col items-center font-bold text-left gap-5">
+                                <div className="h-full flex flex-col items-center font-bold gap-5">
                                     <p className="text-3xl text-primary text-center">
                                         Ներկայացման կարգ
                                     </p>
-                                    <div className="text-xl text-white space-y-1">
+                                    <div className="text-xl text-white space-y-1 flex flex-col justify-center h-full">
                                         <div className="inline-flex gap-2 items-center">
                                             <Github />
                                             <p>
@@ -75,17 +75,17 @@ const Conditions = () => {
                                     <p className="text-3xl text-primary">
                                         Հաղթողների ընտրությունը
                                     </p>
-                                    <ul className="grid lg:grid-cols-2 gap-4 text-xl mt-5 list-disc">
-                                        <li>
+                                    <ul className="grid lg:grid-cols-2 gap-2 text-xl mt-5 text-center">
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
                                             Տեխնիկական բարդություն
                                         </li>
-                                        <li>
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
                                             Նախագծի ամբողջականություն
                                         </li>
-                                        <li>
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
                                             Օգտագործման հարմարավետություն
                                         </li>
-                                        <li>
+                                        <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
                                             Կատարման իրատեսականություն
                                         </li>
                                     </ul>
