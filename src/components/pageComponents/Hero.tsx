@@ -23,7 +23,7 @@ const Hero = () => {
     return (
         <div className="overflow-hidden h-screen flex flex-col justify-center items-center">
             <div className="mx-auto max-w-6xl px-6 pb-24 sm:pb-32 flex flex-col text-center space-y-10 pt-20 lg:px-8 lg:pt-44 2xl:pt-0 2xl:pb-0 w-full">
-                <div className="h-20 sm:h-32 w-auto" />
+                <div className="h-32 w-auto" />
                 <div>
                     <div id="start" />
                     <p className="text-xl sm:text-4xl text-white font-bold">
