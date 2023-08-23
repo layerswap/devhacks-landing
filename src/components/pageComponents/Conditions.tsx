@@ -1,4 +1,3 @@
-import Spotlight, { SpotlightCard } from "@/components/animationComponents/Spotlight";
 import { Bot, Coffee, CupSoda, Github, Projector, Sandwich, Utensils } from "lucide-react";
 
 const Conditions = () => {
