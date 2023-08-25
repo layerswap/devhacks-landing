@@ -3,6 +3,7 @@ import Conditions from "./Conditions"
 import Hero from "./Hero"
 import PrizePool from "./PrizePool"
 import Timeline from "./Timeline"
+import FAQ from "./faq"
 
 const Home = () => {
     return (
@@ -16,6 +17,8 @@ const Home = () => {
             <PrizePool />
 
             <CTASection />
+            
+            <FAQ />
         </>
     )
 }
