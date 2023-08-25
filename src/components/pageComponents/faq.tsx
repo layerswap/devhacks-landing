@@ -1,7 +1,7 @@
 import { Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from '@chakra-ui/react'
 const FAQ = () => {
     return (
-        <div className="overflow-hidden pb-12 flex flex-col justify-center items-center px-6 lg:px-8">
+        <div className="overflow-hidden pb-12 flex flex-col justify-center items-center px-6 lg:px-8" id="faq">
             <div className="mx-auto max-w-6xl px-6 flex flex-col text-center w-full lg:px-8 2xl:pt-0 2xl:pb-0 bg-darkblue-800 bg-opacity-50 backdrop-blur-md rounded-xl">
                 <div className="mx-auto max-w-2xl lg:text-center pb-6">
                     <p className="text-3xl font-bold tracking-tight sm:text-4xl lg:text-6xl pt-6">
