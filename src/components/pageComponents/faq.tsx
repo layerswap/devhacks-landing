@@ -38,7 +38,7 @@ const FAQ = () => {
                             className="text-medium mt-2 text-left text-base sm:text-lg text-darkblue-100"
                             pb={4}
                         >
-                            Թույլատրվում է միայն պլանավորել՝ օրինակ՝ ինչ եք անելու, ոնց եք անելու, ինչ ռեսուրսներ են պետք։ Իսկ փաստացի նախագծի իրականացումը պետք է ամբողջությամբ ստեղծվի այդ 48 ժամվա ընթացքում։
+                            Թույլատրվում է միայն պլանավորել՝ օրինակ՝ ինչ եք անելու, ինչպես եք անելու, ինչ ռեսուրսներ են պետք։ Իսկ նախագիծը պետք է ամբողջությամբ իրականացվի այդ 48 ժամվա ընթացքում։
                         </AccordionPanel>
                     </AccordionItem>
 
@@ -52,7 +52,7 @@ const FAQ = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
-                            Ոչ, մրցույթը ձեր ու ձեր թիմի մասին է՝ եկեք, ինքնուրույն տանջվենք ու ինքնուրույն փորձեք կորզել էն ինչ ձերն ա։ Չկարողացաք չկարողացաք՝ մենթորները ոչ մի բան չեն կարող անել։
+                            Ոչ, մրցույթը Ձեր ու Ձեր թիմի մասին է՝ եկե՛ք, տանջվե՛ք ու ինքնուրույն փորձե՛ք ստեղծել ն ինչ կարող եք։
                         </AccordionPanel>
                     </AccordionItem>
 
@@ -60,13 +60,13 @@ const FAQ = () => {
                         <h2>
                             <AccordionButton className='flex justify-between'>
                                 <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
-                                    Ովքե՞ր և ո՞նց են գնահատելու նախագծերը
+                                    Ովքե՞ր և ինչպե՞ս՞ են գնահատելու նախագծերը
                                 </span>
                                 <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
                             </AccordionButton>
                         </h2>
                         <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
-                            Նախապես ընտրված` 6-10 հոգանոց հանձնաժողովը գնահատելու է նախագծերը հայտարարված կրիտերիաներով` տեխնիկական բարդությունը, նախագծի ամբողջականությունը, օգտագործման հարմարավետությունը, կատարման իրատեսականությունը։ Հանձնաժողովի անդամները կազմված կլինեն տարբեր ոլորտների մասնագետներից։
+                            Նախապես ընտրված` 6-10 հոգանոց հանձնաժողովը գնահատելու է նախագծերը հայտարարված չափանիշներով` տեխնիկական բարդություն, նախագծի ամբողջականություն, օգտագործման հարմարավետություն, կատարման իրատեսականություն։ Հանձնաժողովի անդամները կազմված կլինեն տարբեր ոլորտների մասնագետներից։
                         </AccordionPanel>
                     </AccordionItem>
 
@@ -74,13 +74,83 @@ const FAQ = () => {
                         <h2>
                             <AccordionButton className='flex justify-between'>
                                 <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
-                                    Ո՞նց է լինելու հավելյալ $5000-ի մրցանակաբաշխությունը
+                                    Ո՞րն է հավելյալ $5000 մրցանակ ստանալու կարգը
                                 </span>
                                 <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
                             </AccordionButton>
                         </h2>
                         <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
-                            Առաջին տեղ զբաղեցրած թիմը առանց նախապայմանի հաղթելու է $5000: Որից հետո հանձնաժողովը առանձին քվեարկություն է անելու՝ հավելյան $5000-ի համար։ Հիմնական ուշադրություն է դարձվելու նախագծի իրագործման իրատեսականության վրա։
+                            Առաջին տեղը զբաղեցրած թիմը առանց նախապայմանի հաղթելու է $5000, որից հետո հանձնաժողովն առանձին քվեարկությամբ որոշում է կայացնելուհավելյալ $5000 շնորհելու մասով։  Քվերակության ժամանակ շեշտը դրվելու է նախագծի իրագործման իրատեսականության վրա։
+                        </AccordionPanel>
+                    </AccordionItem>
+
+                    <AccordionItem className='border-b border-gray-200 py-[17px] dark:!border-white/10'>
+                        <h2>
+                            <AccordionButton className='flex justify-between'>
+                                <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
+                                    Կարո՞ղ եմ մասնակցել, եթե ծրագրավորող չեմ
+                                </span>
+                                <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
+                            Միանշանակ, թիմը համակողմանի կմոտենա նախագծին տարբեր հմտություններ ունեցող թիմակիցներ ունենալու դեպքում։
+                        </AccordionPanel>
+                    </AccordionItem>
+
+                    <AccordionItem className='border-b border-gray-200 py-[17px] dark:!border-white/10'>
+                        <h2>
+                            <AccordionButton className='flex justify-between'>
+                                <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
+                                    Կարո՞ղ ենք աշխատել արդեն իսկ գոյություն ունեցող նախագծի վրա
+                                </span>
+                                <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
+                            Ցանկալի է ստեղծել նոր նախագիծ։ Եթե նախընտրում եք աշխատել արդեն գոյություն ունեցող նախագծի կատարելագործման վրա, անհրաժեշտ է նախապես ստանալ հաստատում տելեգրամյան ալիքի միջոցով։
+                        </AccordionPanel>
+                    </AccordionItem>
+
+                    <AccordionItem className='border-b border-gray-200 py-[17px] dark:!border-white/10'>
+                        <h2>
+                            <AccordionButton className='flex justify-between'>
+                                <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
+                                    Ինչպե՞ս է կազմակերպվելու հանգիստը այդ 48 ժամվա ընթացքում
+                                </span>
+                                <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
+                            Հանգստի համար նախատեսված զոնա չի լինելու։ Մասնակիցները կարող են լքել մրցույթի անցկացման վայրը, եթե կա հանգստանալու խիստ անհրաժեշտություն։
+                        </AccordionPanel>
+                    </AccordionItem>
+
+                    <AccordionItem className='border-b border-gray-200 py-[17px] dark:!border-white/10'>
+                        <h2>
+                            <AccordionButton className='flex justify-between'>
+                                <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
+                                    Տրանսպորտ տրամադրվելու՞ է
+                                </span>
+                                <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
+                            Ոչ, մասնակիցներն իրենք պետք է կազմակերպեն իրենց տրանսպորտը։
+                        </AccordionPanel>
+                    </AccordionItem>
+
+                    <AccordionItem className='border-b border-gray-200 py-[17px] dark:!border-white/10'>
+                        <h2>
+                            <AccordionButton className='flex justify-between'>
+                                <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
+                                    Ի՞նչ պետք է մեզ հետ ունենանք
+                                </span>
+                                <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
+                            Ձեզ հետ բերեք այն ամենը, ինչ հարկավոր է նախագծի վրա աշխատելու համար՝ նոթբուքեր, լիցքավորիչներ, անհրաժեշտ ծրագրեր և այլն։
                         </AccordionPanel>
                     </AccordionItem>
 
@@ -88,7 +158,7 @@ const FAQ = () => {
                         <h2>
                             <AccordionButton className='flex justify-between'>
                                 <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
-                                    Ունեմ հարց, ու՞մ դիմեմ
+                                    Ունեմ այլ հարց, ու՞մ դիմեմ
                                 </span>
                                 <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
                             </AccordionButton>
