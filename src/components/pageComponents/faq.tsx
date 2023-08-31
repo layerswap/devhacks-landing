@@ -13,7 +13,7 @@ const FAQ = () => {
                         <h2>
                             <AccordionButton className='flex justify-between'>
                                 <span className='text-left font-bold text-lg sm:text-xl text-navy-900 dark:text-white' >
-                                    Ի՞նչ ոլորտի նախագծեր կարող են մասկանցել
+                                    Ի՞նչ ոլորտի նախագծեր կարող են մասնակցել
                                 </span>
                                 <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
                             </AccordionButton>
@@ -52,7 +52,7 @@ const FAQ = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
-                            Ոչ, մրցույթը Ձեր ու Ձեր թիմի մասին է՝ եկե՛ք, տանջվե՛ք ու ինքնուրույն փորձե՛ք ստեղծել ն ինչ կարող եք։
+                            Ոչ, մրցույթը Ձեր ու Ձեր թիմի մասին է՝ եկե՛ք, տանջվե՛ք ու ինքնուրույն փորձե՛ք ստեղծել այն ինչ կարող եք։
                         </AccordionPanel>
                     </AccordionItem>
 
@@ -60,7 +60,7 @@ const FAQ = () => {
                         <h2>
                             <AccordionButton className='flex justify-between'>
                                 <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
-                                    Ովքե՞ր և ինչպե՞ս՞ են գնահատելու նախագծերը
+                                    Ովքե՞ր և ինչպե՞ս են գնահատելու նախագծերը
                                 </span>
                                 <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
                             </AccordionButton>
