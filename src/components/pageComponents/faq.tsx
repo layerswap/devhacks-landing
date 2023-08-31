@@ -80,21 +80,7 @@ const FAQ = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
-                            Առաջին տեղը զբաղեցրած թիմը առանց նախապայմանի հաղթելու է $5000, որից հետո հանձնաժողովն առանձին քվեարկությամբ որոշում է կայացնելու հավելյալ $5000 շնորհելու մասով։ Քվերակության ժամանակ շեշտը դրվելու է նախագծի իրագործման իրատեսականության վրա։
-                        </AccordionPanel>
-                    </AccordionItem>
-
-                    <AccordionItem className='border-b border-gray-200 py-[17px] dark:!border-white/10'>
-                        <h2>
-                            <AccordionButton className='flex justify-between'>
-                                <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
-                                    Կարո՞ղ եմ մասնակցել, եթե ծրագրավորող չեմ
-                                </span>
-                                <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
-                            </AccordionButton>
-                        </h2>
-                        <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
-                            Միանշանակ, թիմը համակողմանի կմոտենա նախագծին տարբեր հմտություններ ունեցող թիմակիցներ ունենալու դեպքում։
+                            Առաջին տեղը զբաղեցրած թիմն առանց նախապայմանի հաղթելու է $5000, որից հետո հանձնաժողովն առանձին քվեարկությամբ որոշում է կայացնելու հավելյալ $5000 շնորհելու մասով։ Քվեարկության ժամանակ շեշտը դրվելու է նախագծի իրագործման իրատեսականության վրա։
                         </AccordionPanel>
                     </AccordionItem>
 
