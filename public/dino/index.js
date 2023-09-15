@@ -103,7 +103,7 @@
      * @enum {number}
      */
     Runner.config = {
-        ACCELERATION: 0.001,
+        ACCELERATION: 0.069,
         BG_CLOUD_SPEED: 0.2,
         BOTTOM_PAD: 10,
         CLEAR_TIME: 3000,
@@ -577,7 +577,7 @@
                     Math.ceil(this.distanceRan));
 
                 if (this.distanceRan >= (666 * 40) && this.distanceRan <= 26690) {
-                    alert("Դուք վաստակեցիք գրանցվելու սատանայական հնարավորություն։ Մտեք այս լինկով՝ https://layerswap.typeform.com/devhacks_devils_666")
+                    alert("Դուք վաստակեցիք գրանցվելու սատանայական հնարավորություն։ Մտեք այս լինկով՝ https://layerswap.typeform.com/devhacks666")
                 }
 
                 if (playAchievementSound) {
