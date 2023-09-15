@@ -103,7 +103,7 @@
      * @enum {number}
      */
     Runner.config = {
-        ACCELERATION: 0.069,
+        ACCELERATION: 0.1,
         BG_CLOUD_SPEED: 0.2,
         BOTTOM_PAD: 10,
         CLEAR_TIME: 3000,
