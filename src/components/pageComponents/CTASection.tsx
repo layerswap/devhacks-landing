@@ -6,7 +6,7 @@ export default function CTASection() {
         <div className="relative isolate py-24 sm:pb-16 lg:pb-32 lg:pt-32 sm:pt-16">
             <div className="mx-auto max-w-6xl px-6 lg:px-8 text-center">
                 <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-                    <span className="text-primary">Դևը</span> սպասում է քեզ...
+                    <span className="text-primary">Դևը</span> գնաց Վանաձոր
                 </h2>
                 <p className="mt-4 text-darkblue-100">
                     Գրանցումը <span className="text-primary">փակ է</span>
