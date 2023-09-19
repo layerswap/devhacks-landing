@@ -53,6 +53,9 @@ const PARTICIPANTS = [
     "ArmTech",
     "MedicineGPT",
     "Չինգաչունգ",
+    "On the road", 
+    "GreenTime", 
+    "MedTech"
 ]
 
 export default function CTASection() {
