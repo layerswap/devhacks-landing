@@ -55,7 +55,8 @@ const PARTICIPANTS = [
     "Չինգաչունգ",
     "On the road", 
     "GreenTime", 
-    "MedTech"
+    "MedTech",
+    "IDS"
 ]
 
 export default function CTASection() {
