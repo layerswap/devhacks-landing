@@ -20,7 +20,7 @@ const PARTICIPANTS = [
     "Լավերով",
     "Picsart Academy",
     "iifay",
-    "Code of Soul",
+    "Souls of Code",
     "TechMind",
     "ByteStorm",
     "Tomorrow is now",
