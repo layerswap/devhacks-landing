@@ -34,7 +34,7 @@ const AnimatedLogo = () => {
             function drawLine(line: any) {
                 if (typeof document !== 'undefined' && typeof window !== 'undefined') {
                     var scrollY = window.scrollY;
-                    var maxScrollY = document.documentElement.scrollHeight - window.innerHeight;
+                    var maxScrollY = (document.documentElement.scrollHeight - window.innerHeight) * (width <= 768 ? 0.77 : 0.81);
                     var pathLength = line.getTotalLength(),
                         percentDone = scrollY / maxScrollY,
                         length = percentDone * pathLength;
@@ -45,7 +45,7 @@ const AnimatedLogo = () => {
 
             function positionTail() {
                 var scrollY = window.scrollY;
-                var maxScrollY = document.documentElement.scrollHeight - window.innerHeight;
+                var maxScrollY = (document.documentElement.scrollHeight - window.innerHeight) * (width <= 768 ? 0.77 : 0.81);
                 var getPathById = document.getElementById("path") as any
                 var path: SVGGeometryElement = getPathById;
                 // Calculate distance along the path the car should be for the current scroll amount
