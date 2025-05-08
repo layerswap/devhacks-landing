@@ -16,7 +16,7 @@ const Home = () => {
 
             <PrizePool />
 
-            <CTASection />
+            {/* <CTASection /> */}
             
             <FAQ />
         </>
