@@ -12,12 +12,12 @@ const Timeline = () => {
         {
             heading: <>Սկիզբ</>,
             name: <>11:00 AM</>,
-            description: <>Սեպտեմբեր 29</>
+            description: <>Հուլիս 4</>
         },
         {
             heading: <>Վերջ</>,
             name: <>03:00 PM</>,
-            description: <>Հոկտեմբեր 1</>
+            description: <>Հուլիս 6</>
         }
     ]
 
@@ -31,7 +31,7 @@ const Timeline = () => {
                 </div>
                 <div className="lg:w-1/4 my-8 sm:my-16 mx-auto">
                     <Link href={'https://www.facebook.com/techweekarmenia'} target="_blank" className="hover:opacity-80">
-                        <Image src={"/TechWeekBanner.png"} width={1600} height={700} alt={"teckWeekBanner"} />
+                        <Image src={"/TechWeekBanner.svg"} width={1600} height={700} alt={"teckWeekBanner"} />
                     </Link>
                 </div>
                 <div className="flex flex-col lg:flex-row sm:items-stretch gap-5 w-full">
