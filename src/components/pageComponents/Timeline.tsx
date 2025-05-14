@@ -11,7 +11,7 @@ const Timeline = () => {
         },
         {
             heading: <>Սկիզբ</>,
-            name: <>11:00 AM</>,
+            name: <>10:00 AM</>,
             description: <>Հուլիս 4</>
         },
         {

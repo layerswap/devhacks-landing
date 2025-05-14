@@ -33,7 +33,12 @@ const Hero = () => {
                         Հավաքի՛ր թիմ, մտածի՛ր նախագիծ, Հուլիսի 4-ին <span className="text-white">արի՛ Վանաձոր</span>։ Իրականացրու՛ նախագիծդ, ներկայացրու՛ այն և <span className="text-white">հաղթի՛ր $10,000</span>։
                     </p>
                     <p className="text-xs sm:text-lg text-darkblue-100 max-w-md mx-auto mt-3 inline-flex items-center gap-1">
-                        <Link target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250704T070000Z%2F20250706T160000Z&details=https%3A%2F%2Fdevhacks.am&location=Vanadzor%20Technological%20Center%2C%2012%20Shinararneri%20St%2C%20Vanadzor%202019%2C%20Armenia&text=DevHacks%20%D4%B1%D5%B4%D5%A5%D5%B6%D5%A1%D5%A4%D5%A1%D5%AA%20%D5%84%D6%80%D6%81%D5%B8%D6%82%D5%B5%D5%A9" className="underline hover:no-underline inline-flex items-center gap-1"><Calendar className="h-4 w-auto" /> Հուլիսի 4 11:00 AM</Link> | <Link href="https://goo.gl/maps/zUBaeyTY6pxjjfe98" target="_blank" className="underline hover:no-underline inline-flex items-center gap-1"><MapPin className="h-4 w-auto" /> Վանաձոր, ՎՏԿ</Link>
+                        <Link
+                            target="_blank"
+                            href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250704T070000Z%2F20250706T160000Z&details=https%3A%2F%2Fdevhacks.am&location=Vanadzor%20Technological%20Center%2C%2012%20Shinararneri%20St%2C%20Vanadzor%202019%2C%20Armenia&text=DevHacks%20%D4%B1%D5%B4%D5%A5%D5%B6%D5%A1%D5%A4%D5%A1%D5%AA%20%D5%84%D6%80%D6%81%D5%B8%D6%82%D5%B5%D5%A9"
+                            className="underline hover:no-underline inline-flex items-center gap-1">
+                            <Calendar className="h-4 w-auto" /> Հուլիսի 4 10:00 AM</Link> | <Link href="https://goo.gl/maps/zUBaeyTY6pxjjfe98" target="_blank" className="underline hover:no-underline inline-flex items-center gap-1"><MapPin className="h-4 w-auto" /> Վանաձոր, ՎՏԿ
+                        </Link>
                     </p>
                     <div className={`${hide && 'opacity-0'} left-[calc(50%-15px)] top-[90vh] absolute transition-all duration-200`}>
                         <div className="scrolldown ">
