@@ -53,7 +53,7 @@ const Hero = () => {
                                 և
                             </p>
                             <Link href={'https://www.techweek.am/'} target="_blank" className="hover:opacity-80">
-                                <Image src={"/TechWeekBanner.svg"} width={160} height={70} alt={"teckWeekLogo"} className="h-7 w-auto" />
+                                <Image src={"/TechWeekLogo.svg"} width={160} height={70} alt={"teckWeekLogo"} className="h-7 w-auto" />
                             </Link>
                         </div>
                     </div>
