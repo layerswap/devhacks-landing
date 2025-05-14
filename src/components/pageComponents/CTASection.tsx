@@ -108,7 +108,7 @@ export default function CTASection() {
                     <span className="text-primary">Դևը</span> սպասում է քեզ...
                 </h2>
                 <p className="mt-4 text-darkblue-100">
-                    Գրանցումը բաց է մինչև <span className="text-primary">Հունիսի 14-ը</span>
+                    Գրանցումը բաց է մինչև <span className="text-primary">Հունիսի 15-ը</span>
                 </p>
                 <div className="mt-5 flex items-center justify-center gap-x-6">
                     <Link
