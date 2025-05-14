@@ -40,7 +40,7 @@ export default function PrizePool() {
                                 🥉 Երրորդ
                             </div>
                             <p className="text-primary text-5xl font-bold text-center space-y-1">
-                                $1,000
+                                $1,500
                             </p>
                             <div />
                         </div>
@@ -65,7 +65,7 @@ export default function PrizePool() {
                         </div>
                         <div className="from-primary/50 bg-gradient-to-t h-1/2 w-full place-self-end rounded-br-lg flex flex-col justify-between items-center pb-5">
                             <p className="flex justify-center text-6xl font-bold">
-                                $1,000
+                                $1,500
                             </p>
                             <div className="px-3 py-1.5 text-base rounded-full text-black bg-white">
                                 🥉 Երրորդ
