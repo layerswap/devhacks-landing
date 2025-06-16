@@ -61,7 +61,7 @@ const Conditions = () => {
                                         <div className="inline-flex gap-2 items-center">
                                             <Projector />
                                             <p>
-                                                5 րոպե դեմո բեմում
+                                                3 րոպե դեմո բեմում, 3 րոպե Q&A
                                             </p>
                                         </div>
                                     </div>
@@ -70,24 +70,27 @@ const Conditions = () => {
                         </div>
                         <div className="h-full bg-darkblue-800 bg-opacity-50 backdrop-blur-md rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-4 -z-20">
                             <div className="relative h-full p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
-                                <div className="font-bold text-white h-full flex flex-col items-center justify">
+                                <div className="font-bold text-white h-full flex flex-col items-center">
                                     <p className="text-3xl text-primary">
                                         Հաղթողների ընտրությունը
                                     </p>
                                     <ul className="grid md:grid-cols-2 gap-2 text-xl mt-5 text-center">
                                         <li className="bg-darkblue-800 p-1 w-full rounded-lg">
-                                            Տեխնիկական 
-                                            <br/>
+                                            Տեխնիկական
+                                            <br />
                                             բարդություն
                                         </li>
                                         <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
                                             Նախագծի ամբողջականություն
                                         </li>
                                         <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
-                                            Օգտագործման հարմարավետություն
+                                            Գաղափարի և լուծման նորարություն
                                         </li>
                                         <li className="bg-darkblue-800 p-1 w-fit rounded-lg">
                                             Կատարման իրատեսականություն
+                                        </li>
+                                        <li className="bg-darkblue-800 p-1  rounded-lg md:col-span-2">
+                                            Խնդրի լուծման կարևորություն <br /> և ազդեցություն
                                         </li>
                                     </ul>
                                 </div>
@@ -95,7 +98,7 @@ const Conditions = () => {
                         </div>
                         <div className={`h-full bg-darkblue-800 bg-opacity-50 backdrop-blur-md rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-7`}>
                             <div className="relative h-full p-6 sm:p-10 rounded-[inherit] z-20 overflow-hidden">
-                                <div className="text-2xl font-bold text-center text-white h-full flex flex-col items-center gap-5 lg:gap-10">
+                                <div className="text-2xl font-bold text-center text-white h-full flex flex-col items-center justify-center gap-5 lg:gap-10">
                                     <p className="text-3xl">
                                         Ամբողջ մրցման ընթացքում՝ ԱՆՎՃԱՐ
                                     </p>

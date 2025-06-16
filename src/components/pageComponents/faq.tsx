@@ -139,6 +139,20 @@ const FAQ = () => {
                             <a href="https://t.me/+lDNpJpmaYRE2MmIy" className="text-primary">Միացեք մեր տելեգրամ համայնքին</a>, կազմակերպիչները արագ կպատասխանեն Ձեր ցանկացած հարցին։
                         </AccordionPanel>
                     </AccordionItem>
+
+                    <AccordionItem className='border-gray-200 py-[17px] dark:!border-white/10 pb-6'>
+                        <h2>
+                            <AccordionButton className='flex justify-between'>
+                                <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
+                                    Ովքե՞ր և ինչպե՞ս են գնահատելու նախագծերը
+                                </span>
+                                <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
+                            Նախապես ընտրված 5 հոգանոց հանձնաժողովը գնահատելու է նախագծերը հայտարարված չափանիշներով` տեխնիկական բարդություն, նախագծի ամբողջականություն, կատարման իրատեսականություն, գաղափարի և լուծման նորարություն, խնդրի լուծման կարևորություն և ազդեցություն։ Հանձնաժողովի անդամները կազմված կլինեն տարբեր ոլորտների մասնագետներից։
+                        </AccordionPanel>
+                    </AccordionItem>
                 </Accordion>
             </div>
         </div>
