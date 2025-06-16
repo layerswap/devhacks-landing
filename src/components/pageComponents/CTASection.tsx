@@ -105,7 +105,11 @@ export default function CTASection() {
                 <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
                     <span className="text-primary">Դևը</span> սպասում է քեզ...
                 </h2>
-                <span className="text-primary mt-4">Գրանցումը փակ է</span>
+                <p
+                    id="end"
+                    className="mt-4 text-primary">
+                    Գրանցումը փակ է
+                </p>
             </div>
         </div>
     )

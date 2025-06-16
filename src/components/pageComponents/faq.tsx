@@ -126,7 +126,7 @@ const FAQ = () => {
                         </AccordionPanel>
                     </AccordionItem>
 
-                    <AccordionItem className='border-gray-200 py-[17px] dark:!border-white/10 pb-6'>
+                    <AccordionItem className='border-b border-gray-200 py-[17px] dark:!border-white/10 pb-6'>
                         <h2>
                             <AccordionButton className='flex justify-between'>
                                 <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
