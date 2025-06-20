@@ -46,27 +46,13 @@ const FAQ = () => {
                         <h2>
                             <AccordionButton className='flex justify-between'>
                                 <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
-                                    Կլինե՞ն մենթորներ օգնության համար
-                                </span>
-                                <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
-                            </AccordionButton>
-                        </h2>
-                        <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
-                            Ոչ, մրցույթը Ձեր ու Ձեր թիմի մասին է՝ եկե՛ք, տանջվե՛ք ու ինքնուրույն փորձե՛ք ստեղծել այն ինչ կարող եք։
-                        </AccordionPanel>
-                    </AccordionItem>
-
-                    <AccordionItem className='border-b border-gray-200 py-[17px] dark:!border-white/10'>
-                        <h2>
-                            <AccordionButton className='flex justify-between'>
-                                <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
                                     Ովքե՞ր և ինչպե՞ս են գնահատելու նախագծերը
                                 </span>
                                 <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
                             </AccordionButton>
                         </h2>
                         <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
-                            Նախապես ընտրված` 6-10 հոգանոց հանձնաժողովը գնահատելու է նախագծերը հայտարարված չափանիշներով` տեխնիկական բարդություն, նախագծի ամբողջականություն, օգտագործման հարմարավետություն, կատարման իրատեսականություն։ Հանձնաժողովի անդամները կազմված կլինեն տարբեր ոլորտների մասնագետներից։
+                            Նախապես ընտրված` 3-6 հոգանոց հանձնաժողովը գնահատելու է նախագծերը հայտարարված չափանիշներով` տեխնիկական բարդություն, նախագծի ամբողջականություն, օգտագործման հարմարավետություն, կատարման իրատեսականություն։ Հանձնաժողովի անդամները կազմված կլինեն տարբեր ոլորտների մասնագետներից։
                         </AccordionPanel>
                     </AccordionItem>
 
@@ -94,7 +80,7 @@ const FAQ = () => {
                             </AccordionButton>
                         </h2>
                         <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
-                            Ցանկալի է ստեղծել նոր նախագիծ։ Եթե նախընտրում եք աշխատել արդեն գոյություն ունեցող նախագծի կատարելագործման վրա, անհրաժեշտ է նախապես ստանալ հաստատում տելեգրամյան ալիքի միջոցով։
+                            Ոչ, նախագիծը պետք է ամբողջությամբ իրականացվի հեքըթոնի ընթացքում՝ սկսած գաղափարի ձևավորումից մինչև նախատիպի կամ աշխատող MVP-ի ստեղծումը:
                         </AccordionPanel>
                     </AccordionItem>
 
@@ -140,7 +126,7 @@ const FAQ = () => {
                         </AccordionPanel>
                     </AccordionItem>
 
-                    <AccordionItem className='border-gray-200 py-[17px] dark:!border-white/10 pb-6'>
+                    <AccordionItem className='border-b border-gray-200 py-[17px] dark:!border-white/10 pb-6'>
                         <h2>
                             <AccordionButton className='flex justify-between'>
                                 <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
@@ -151,6 +137,20 @@ const FAQ = () => {
                         </h2>
                         <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
                             <a href="https://t.me/+lDNpJpmaYRE2MmIy" className="text-primary">Միացեք մեր տելեգրամ համայնքին</a>, կազմակերպիչները արագ կպատասխանեն Ձեր ցանկացած հարցին։
+                        </AccordionPanel>
+                    </AccordionItem>
+
+                    <AccordionItem className='border-gray-200 py-[17px] dark:!border-white/10 pb-6'>
+                        <h2>
+                            <AccordionButton className='flex justify-between'>
+                                <span className='text-left text-lg sm:text-xl font-bold text-navy-900 dark:text-white'>
+                                    Ովքե՞ր և ինչպե՞ս են գնահատելու նախագծերը
+                                </span>
+                                <AccordionIcon className='text-left !text-navy-900 dark:!text-white' />
+                            </AccordionButton>
+                        </h2>
+                        <AccordionPanel className='text-left text-medium text-base sm:text-lg mt-2 text-darkblue-100' pb={4}>
+                            Նախապես ընտրված 5 հոգանոց հանձնաժողովը գնահատելու է նախագծերը հայտարարված չափանիշներով` տեխնիկական բարդություն, նախագծի ամբողջականություն, կատարման իրատեսականություն, գաղափարի և լուծման նորարություն, խնդրի լուծման կարևորություն և ազդեցություն։ Հանձնաժողովի անդամները կազմված կլինեն տարբեր ոլորտների մասնագետներից։
                         </AccordionPanel>
                     </AccordionItem>
                 </Accordion>

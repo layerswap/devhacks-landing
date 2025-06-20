@@ -1,6 +1,5 @@
 import { FC } from "react"
 import Head from 'next/head'
-import Footer from '@/components/pageComponents/Footer'
 import Script from "next/script";
 import AnimatedLogo from "./AnimatedLogo";
 
@@ -69,8 +68,6 @@ const Layout: FC<Props> = ({ children }) => {
                 </svg>
 
                 {children}
-
-                <Footer />
 
             </div>
         </>
