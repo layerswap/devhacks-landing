@@ -81,11 +81,12 @@ export default function CTASection() {
         <div className="relative isolate py-24 sm:pb-16 lg:pb-32 lg:pt-32 sm:pt-16">
             <div className="mx-auto max-w-6xl px-6 lg:px-8 text-center">
                 <div className="mx-auto max-w-2xl lg:text-center mb-10">
-                    <p id='end' className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-6xl">
-                        Մասնակից թիմեր
+                    <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl lg:text-6xl">
+                        Մասնակիցներ
                     </p>
                 </div>
                 <div id='participants' className="space-x-2 space-y-2 p-6 sm:p-10 h-full bg-darkblue-800 bg-opacity-50 backdrop-blur-md rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-5">
+                    <div id='end' />
                     {
                         PARTICIPANTS.map(p => <div
                             key={p}

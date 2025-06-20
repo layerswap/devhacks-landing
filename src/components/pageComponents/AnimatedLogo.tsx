@@ -12,7 +12,7 @@ const AnimatedLogo = () => {
             const start = $('#start')?.offset()?.top
             const end = $('#end')?.offset()?.top
             const logo = $('#animatedLogo')
-            const participantsHeight = $('#participants').height() || 0
+            const participantsHeight = ($('#participants').height()) || 0
 
             if (start && end) {
                 logo.height(end - start);
@@ -84,7 +84,7 @@ const AnimatedLogo = () => {
     }, [])
 
     return (
-        <div className={`${width <= 380 ? 'top-[25vh]' : 'top-[30vh]'} absolute flex justify-center right-0 -z-10 h-full w-full`} id="route">
+        <div className={`${width <= 380 ? 'top-[25vh]' : 'top-[calc(50vh-200px)]'} absolute flex justify-center right-0 -z-10 h-full w-full`} id="route">
             {typeof document !== 'undefined' && isClient &&
                 width <= 768 ?
                 <svg style={{ opacity: 0 }} id='animatedLogo' xmlns="http://www.w3.org/2000/svg" width="457" height="5142" viewBox="0 0 457 5160" fill="none">
