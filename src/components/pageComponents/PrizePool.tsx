@@ -3,7 +3,7 @@
 export default function PrizePool() {
     return (
         <div id="prize-pool">
-            <div className="mx-auto max-w-none sm:max-w-6xl px-6 lg:px-8 space-y-6">
+            <div className="sm:mx-auto max-w-none sm:max-w-6xl px-6 py-3 sm:py-0 lg:px-8 space-y-6 sm:rounded-none rounded-xl sm:bg-transparent bg-darkblue-800 sm:bg-opacity-100 bg-opacity-50 sm:backdrop-blur-none backdrop-blur-md mx-6">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight text-primary sm:text-4xl lg:text-6xl">
                         Մրցանակներ

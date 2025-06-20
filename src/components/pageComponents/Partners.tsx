@@ -16,7 +16,7 @@ const Partners = () => {
     ]
 
     return (
-        <section className="py-12 sm:pb-16 z-50" >
+        <section className="mt-12 sm:mt-20 mb-0 z-50" >
             <div className="mx-auto max-w-none sm:max-w-6xl px-6 lg:px-0">
                 <div className="mx-auto max-w-2xl lg:text-center">
                     <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl lg:text-6xl">
