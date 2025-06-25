@@ -1,59 +1,59 @@
 import React, { useState, useEffect } from 'react';
-import DevLogo from '../../icons/DevLogo';
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
 import '@leenguyen/react-flip-clock-countdown/dist/index.css';
+import { MicVocal, Hamburger, LaptopMinimalCheck, Sandwich, Pizza, UserRoundPen, Coffee, BookUp, BookX, SquareDashedBottomCode, Binary, Trophy, Bus } from 'lucide-react';
+import useWindowDimensions from '@/hooks/useWindowDimensions';
 
 const EventAgenda = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
-
-
+  const { width } = useWindowDimensions()
+  const isMobile = width < 780
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentTime(new Date());
     }, 60000); // Update every minute
-
     return () => clearInterval(timer);
   }, []);
 
   const agendaData = [
     {
-      date: "2025-06-24",
+      date: "2025-06-25",
       day: "Հուլիսի 4",
       events: [
-        { time: "10:00", activity: "Մասնակիցների գրանցում" },
-        { time: "11:00", activity: "Բացման խոսք և մրցույթի մեկնարկ" },
-        { time: "14:00", activity: "Լանչ" },
-        { time: "15:00", activity: "Հեքինգ" },
-        { time: "20:00", activity: "Ընթրիք" },
-        { time: "21:00", activity: "Հեքինգ" },
+        { time: "10:00", activity: "Մասնակիցների գրանցում", icon: UserRoundPen },
+        { time: "11:00", activity: "Բացման խոսք և մրցույթի մեկնարկ", icon: MicVocal },
+        { time: "14:00", activity: "Լանչ", icon: Hamburger },
+        { time: "15:00", activity: "Հեքինգ", icon: LaptopMinimalCheck },
+        { time: "20:00", activity: "Ընթրիք", icon: Pizza },
+        { time: "21:00", activity: "Հեքինգ", icon: LaptopMinimalCheck },
       ]
     },
     {
       date: "2025-07-05",
       day: "Հուլիսի 5",
       events: [
-        { time: "08:00", activity: "Նախաճաշ" },
-        { time: "09:00", activity: "Հեքինգ" },
-        { time: "14:00", activity: "Լանչ" },
-        { time: "15:00", activity: "Հեքինգ" },
-        { time: "18:00", activity: "Նախագծերի հանձնման մեկնարկ" },
-        { time: "20:00", activity: "Ընթրիք" },
-        { time: "21:00", activity: "Հեքինգ" },
+        { time: "08:00", activity: "Նախաճաշ", icon: Sandwich },
+        { time: "09:00", activity: "Հեքինգ", icon: LaptopMinimalCheck },
+        { time: "14:00", activity: "Լանչ", icon: Hamburger },
+        { time: "15:00", activity: "Հեքինգ", icon: LaptopMinimalCheck },
+        { time: "18:00", activity: "Նախագծերի հանձնման մեկնարկ", icon: BookUp },
+        { time: "20:00", activity: "Ընթրիք", icon: Pizza },
+        { time: "21:00", activity: "Հեքինգ", icon: LaptopMinimalCheck },
       ]
     },
     {
       date: "2025-07-06",
       day: "Հուլիսի 6",
       events: [
-        { time: "08:00", activity: "Նախաճաշ" },
-        { time: "09:30", activity: "Նախագծերի հանձնման վերջնաժամկետ" },
-        { time: "10:00", activity: "Դեմո ներկայացումներ" },
-        { time: "12:00", activity: "Սուրճի ընդմիջում և լանչ" },
-        { time: "12:30", activity: "Դեմո ներկայացումներ (շարունակություն)" },
-        { time: "14:00", activity: "Առաջատար նախագծերի code review" },
-        { time: "14:30", activity: " Ժյուրիի հանդիպում և հաղթողների ընտրություն" },
-        { time: "15:00", activity: "Տեղափոխում դեպի Tech Week Vanadzor-ի հիմնական վայր" },
-        { time: "16:00", activity: "Հաղթողների հայտարարում և մրցանակաբաշխություն" }
+        { time: "08:00", activity: "Նախաճաշ", icon: Sandwich },
+        { time: "09:30", activity: "Նախագծերի հանձնման վերջնաժամկետ", icon: BookX },
+        { time: "10:00", activity: "Դեմո ներկայացումներ", icon: SquareDashedBottomCode },
+        { time: "12:00", activity: "Սուրճի ընդմիջում և լանչ", icon: Coffee },
+        { time: "12:30", activity: "Դեմո ներկայացումներ (շարունակություն)", icon: SquareDashedBottomCode },
+        { time: "14:00", activity: "Առաջատար նախագծերի code review", icon: Binary },
+        { time: "14:30", activity: "Ժյուրիի հանդիպում և հաղթողների ընտրություն", icon: Trophy },
+        { time: "15:00", activity: "Տեղափոխում դեպի Tech Week Vanadzor-ի հիմնական վայր", icon: Bus },
+        { time: "16:00", activity: "Հաղթողների հայտարարում և մրցանակաբաշխություն", icon: MicVocal }
       ]
     }
   ];
@@ -61,7 +61,6 @@ const EventAgenda = () => {
   const isEventActive = (eventDate: string, eventTime: string) => {
     const eventDateTime = new Date(`${eventDate}T${eventTime}:00`);
     const currentDateTime = currentTime;
-
     // Check if the event is currently happening (within 1 hour window)
     const timeDiff = currentDateTime.getTime() - eventDateTime.getTime();
     return timeDiff >= 0 && timeDiff <= 3600000; // 1 hour in milliseconds
@@ -71,57 +70,52 @@ const EventAgenda = () => {
     const isActive = isEventActive(eventDate, event.time);
 
     return (
-      <>
-        <div className={`relative group ${isActive ? 'z-10' : ''}`}>
-          {
-            isActive &&
-            <>
-              <div className='absolute -left-[30px] -top-8'>
-                <HornsSvg className="w-[80px] h-auto" />
-              </div>
-              <div className='absolute -right-[146px] top-0'>
-                <TailSvg className="w-[200px] h-auto" />
-              </div>
-            </>
-          }
-          {/* Floor base */}
-          <div className={`
+      <div className={`relative group ${isActive ? 'z-10' : ''}`}>
+        {
+          isActive &&
+          <>
+            <div className='absolute -left-[30px] -top-8'>
+              <HornsSvg className="w-[80px] h-auto" />
+            </div>
+            <div className='absolute -right-[146px] top-0'>
+              <TailSvg className="w-[200px] h-auto" />
+            </div>
+          </>
+        }
+        {/* Floor base */}
+        <div className={`
             relative bg-darkblue-800 bg-opacity-50 backdrop-blur-md 
             transition-all duration-300 group-hover:bg-opacity-70 rounded-xl
             ${isActive
-              ? 'bg-primary/10 shadow-lg shadow-primary/25 border-2 border-primary'
-              : ''
-            }
+            ? 'bg-primary/10 shadow-lg shadow-primary/25 border-2 border-primary'
+            : ''
+          }
           `}>
-            {/* Tower floor content */}
-            <div className="flex flex-col sm:flex-row sm:items-center min-h-[96px] p-3 sm:p-4 gap-3 sm:gap-0">
-              {/* Left side - Time */}
-              <div className='
+          {/* Tower floor content */}
+          <div className="flex flex-col sm:flex-row sm:items-center min-h-[96px] p-3 sm:p-4 gap-3 sm:gap-0">
+            <div className='
                 w-full sm:w-20 text-center sm:text-center font-bold text-base sm:text-lg 
-                border-b-2 sm:border-b-0 sm:border-r-2 pb-2 sm:pb-0 pr-0 sm:pr-4 mr-0 sm:mr-4 text-white'>
-                {event.time}
-              </div>
-
-              {/* Right side - Activity */}
-              <div className="flex-1">
-                <h3 className='font-semibold text-base sm:text-lg mb-1 text-white'>
-                  {event.activity}
-                </h3>
-              </div>
+                sm:border-b-0 sm:border-r-2 pb-2 sm:pb-0 pr-0 sm:pr-4 mr-0 sm:mr-4 text-primary'>
+              {event.time}
             </div>
+            <h3 className="font-semibold text-base sm:text-lg mb-1 text-white text-center sm:text-left max-w-full">
+              {event.icon && (
+                <span className="inline-block align-text-bottom w-5 h-5 mr-2">
+                  <event.icon className="w-full h-full" />
+                </span>
+              )}
+              <span>{event.activity}</span>
+            </h3>
 
-            {/* Tower floor depth effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-darkblue-700/20 to-transparent opacity-50"></div>
           </div>
-
-          {/* Connection line to next floor */}
-          {!isLast && (
-            <div className="flex justify-center">
-              <div className="w-1 h-6 "></div>
-            </div>
-          )}
+          <div className="absolute inset-0 bg-gradient-to-r from-transparent via-darkblue-700/20 to-transparent opacity-50"></div>
         </div>
-      </>
+        {!isLast && (
+          <div className="flex justify-center">
+            <div className="w-1 h-6 "></div>
+          </div>
+        )}
+      </div>
     );
   };
 
@@ -142,26 +136,30 @@ const EventAgenda = () => {
           </div>
           <div className="relative z-10 bg-darkblue-800 bg-opacity-50 backdrop-blur-md rounded-xl min-h-[96px] p-3 sm:p-4 flex flex-col justify-center items-center my-6 mx-auto max-w-2xl">
             <p className="text-white text-sm sm:text-4xl  font-semibold pb-6">Մնաց</p>
-            <FlipClockCountdown
-              to={new Date('2025-07-04T06:00:00Z')}
-              labels={['Օր', 'Ժամ', 'Րոպե', 'Վայրկյան']}
-              labelStyle={{
-                fontSize: 12,
-                fontWeight: 500,
-                textTransform: 'uppercase',
-                color: 'white'
-              }}
-              digitBlockStyle={{
-                backgroundColor: '#252525',
-                color: '#974DF7',
-                fontSize: 32,
-                borderRadius: 8
-              }}
-              dividerStyle={{ color: '#111100' }}
-              separatorStyle={{ color: 'white' }}
-              duration={0.6}
-              hideOnComplete={true}
-            />
+            <div className="w-full flex justify-center sm:scale-100">
+              <FlipClockCountdown
+                to={new Date('2025-07-04T06:00:00Z')}
+                labels={['Օր', 'Ժամ', 'Րոպե', 'Վայրկյան']}
+                labelStyle={{
+                  fontSize: 12,
+                  fontWeight: 500,
+                  textTransform: 'uppercase',
+                  color: 'white'
+                }}
+                digitBlockStyle={{
+                  backgroundColor: '#252525',
+                  color: '#974DF7',
+                  fontSize: isMobile ? 16 : 32,
+                  borderRadius: 8,
+                  height: isMobile ? 40 : undefined,
+                  width: isMobile ? 25 : undefined
+                }}
+                dividerStyle={{ color: '#111100' }}
+                separatorStyle={{ color: 'white' }}
+                duration={0.6}
+                hideOnComplete={true}
+              />
+            </div>
           </div>
         </div>
         {/* Tower Structure */}
