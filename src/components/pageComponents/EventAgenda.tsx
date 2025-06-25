@@ -17,7 +17,7 @@ const EventAgenda = () => {
 
   const agendaData = [
     {
-      date: "2025-06-25",
+      date: "2025-07-04",
       day: "Հուլիսի 4",
       events: [
         { time: "10:00", activity: "Մասնակիցների գրանցում", icon: UserRoundPen },
