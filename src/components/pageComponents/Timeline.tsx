@@ -1,5 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
+import RedirectButton from '../RedirectButton';
+import { ArrowUpRight } from 'lucide-react';
 
 const Timeline = () => {
 
@@ -51,6 +53,15 @@ const Timeline = () => {
                         ))
                     }
                 </div>
+                <span className="flex justify-center mt-6">
+                    <RedirectButton
+                        to="/agenda"
+                        className="inline-flex my-4 text-xl font-medium rounded-lg hover:bg-primary-500text-white underline hover:no-underline"
+                    >
+                        Դեպի Օրակարգ
+                        <ArrowUpRight className="w-5" />
+                    </RedirectButton>
+                </span>
             </div>
         </section>
     )

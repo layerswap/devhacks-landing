@@ -17,9 +17,9 @@ const Home = () => {
 
             <PrizePool />
 
-            <Partners />
-
             <CTASection />
+
+            <Partners />
 
             <FAQ />
         </>
