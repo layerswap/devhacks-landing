@@ -23,7 +23,7 @@ const Partners = () => {
             cards: [
                 {
                     name: "InecoPeople",
-                    linkUrl: 'https://www.inecobank.am/hy/Individual/news/details/ineco-people',
+                    linkUrl: 'https://www.inecobank.am/hy/Individual/ineco-people',
                     logoUrl: '/InecoPeople.png'
                 }
             ],
