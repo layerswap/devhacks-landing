@@ -56,7 +56,7 @@ const EventAgenda = () => {
         { time: "12:00", activity: "Սուրճի ընդմիջում և լանչ", icon: Coffee },
         { time: "12:30", activity: "Դեմո ներկայացումներ (շարունակություն)", icon: SquareDashedBottomCode },
         { time: "14:00", activity: "Առաջատար նախագծերի code review", icon: Binary },
-        { time: "14:30", activity: "Ժյուրիի հանդիպում և հաղթողների ընտրություն", icon: Trophy },
+        { time: "14:30", activity: "Հաղթողների ընտրություն", icon: Trophy },
         { time: "15:00", activity: "Տեղափոխում դեպի Tech Week Vanadzor-ի հիմնական վայր", icon: Bus },
         { time: "16:00", activity: "Հաղթողների հայտարարում և մրցանակաբաշխություն", icon: MicVocal }
       ]
