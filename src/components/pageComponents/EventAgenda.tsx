@@ -6,6 +6,11 @@ import useWindowDimensions from '@/hooks/useWindowDimensions';
 
 const EventAgenda = () => {
   const [currentTime, setCurrentTime] = useState(new Date());
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
   const { width } = useWindowDimensions()
   const isMobile = width < 780
   useEffect(() => {
@@ -137,28 +142,30 @@ const EventAgenda = () => {
           <div className="relative z-10 bg-darkblue-800 bg-opacity-50 backdrop-blur-md rounded-xl min-h-[96px] p-3 sm:p-4 flex flex-col justify-center items-center my-6 mx-auto max-w-2xl">
             <p className="text-white text-sm sm:text-4xl  font-semibold pb-6">Մնաց</p>
             <div className="w-full flex justify-center sm:scale-100">
-              <FlipClockCountdown
-                to={new Date('2025-07-04T06:00:00Z')}
-                labels={['Օր', 'Ժամ', 'Րոպե', 'Վայրկյան']}
-                labelStyle={{
-                  fontSize: 12,
-                  fontWeight: 500,
-                  textTransform: 'uppercase',
-                  color: 'white'
-                }}
-                digitBlockStyle={{
-                  backgroundColor: '#252525',
-                  color: '#974DF7',
-                  fontSize: isMobile ? 16 : 32,
-                  borderRadius: 8,
-                  height: isMobile ? 40 : undefined,
-                  width: isMobile ? 25 : undefined
-                }}
-                dividerStyle={{ color: '#111100' }}
-                separatorStyle={{ color: 'white' }}
-                duration={0.6}
-                hideOnComplete={true}
-              />
+              {
+                mounted && <FlipClockCountdown
+                  to={new Date('2025-07-04T06:00:00Z')}
+                  labels={['Օր', 'Ժամ', 'Րոպե', 'Վայրկյան']}
+                  labelStyle={{
+                    fontSize: 12,
+                    fontWeight: 500,
+                    textTransform: 'uppercase',
+                    color: 'white'
+                  }}
+                  digitBlockStyle={{
+                    backgroundColor: '#252525',
+                    color: '#974DF7',
+                    fontSize: isMobile ? 16 : 32,
+                    borderRadius: 8,
+                    height: isMobile ? 40 : undefined,
+                    width: isMobile ? 25 : undefined
+                  }}
+                  dividerStyle={{ color: '#111100' }}
+                  separatorStyle={{ color: 'white' }}
+                  duration={0.6}
+                  hideOnComplete={true}
+                />
+              }
             </div>
           </div>
         </div>
@@ -171,7 +178,12 @@ const EventAgenda = () => {
             <div key={dayIndex} className="mb-8">
               {/* Day header */}
               <div className="text-center mb-4 sm:mb-6">
-                <h2 className="text-xl sm:text-2xl font-bold text-white mb-2">{dayData.day}</h2>
+                <h2 className="text-xl sm:text-2xl font-bold text-white mb-2 flex items-center justify-center gap-2">
+                  <span className="text-primary  font-[Georgia]  text-2xl sm:text-3xl font-extrabold">
+                    {["I", "II", "III"][dayIndex]}
+                  </span>
+                  <span>{dayData.day}</span>
+                </h2>
               </div>
 
               {/* Day events */}
