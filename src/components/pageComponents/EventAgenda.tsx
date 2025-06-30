@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import FlipClockCountdown from '@leenguyen/react-flip-clock-countdown';
 import '@leenguyen/react-flip-clock-countdown/dist/index.css';
-import { MicVocal, Hamburger, LaptopMinimalCheck, Sandwich, Pizza, UserRoundPen, Coffee, BookUp, BookX, SquareDashedBottomCode, Binary, Trophy, Bus } from 'lucide-react';
+import { MicVocal, Hamburger, LaptopMinimalCheck, Sandwich, Pizza, UserRoundPen, Coffee, BookUp, BookX, SquareDashedBottomCode, Trophy, Bus } from 'lucide-react';
 import useWindowDimensions from '@/hooks/useWindowDimensions';
 
 const EventAgenda = () => {
@@ -50,13 +50,12 @@ const EventAgenda = () => {
       date: "2025-07-06",
       day: "Հուլիսի 6",
       events: [
-        { time: "08:00", activity: "Նախաճաշ", icon: Sandwich },
-        { time: "09:30", activity: "Նախագծերի հանձնման վերջնաժամկետ", icon: BookX },
-        { time: "10:00", activity: "Դեմո ներկայացումներ", icon: SquareDashedBottomCode },
-        { time: "12:00", activity: "Սուրճի ընդմիջում և լանչ", icon: Coffee },
-        { time: "12:30", activity: "Դեմո ներկայացումներ (շարունակություն)", icon: SquareDashedBottomCode },
-        { time: "14:00", activity: "Առաջատար նախագծերի code review", icon: Binary },
-        { time: "14:30", activity: "Հաղթողների ընտրություն", icon: Trophy },
+        { time: "08:30", activity: "Նախաճաշ", icon: Sandwich },
+        { time: "10:30", activity: "Նախագծերի հանձնման վերջնաժամկետ", icon: BookX },
+        { time: "11:00", activity: "Դեմո ներկայացումներ", icon: SquareDashedBottomCode },
+        { time: "13:00", activity: "Սուրճի ընդմիջում և լանչ", icon: Coffee },
+        { time: "13:30", activity: "Դեմո ներկայացումներ (շարունակություն)", icon: SquareDashedBottomCode },
+        { time: "15:00", activity: "Հաղթողների ընտրություն", icon: Trophy },
         { time: "15:00", activity: "Մասնակիցների տեղափոխում Շառլ Ազնավուրի անվան մշակույթի պալատ", icon: Bus },
         { time: "16:50", activity: "Հաղթողների հայտարարում և մրցանակաբաշխություն", icon: MicVocal }
       ]
