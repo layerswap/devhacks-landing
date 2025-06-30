@@ -71,6 +71,7 @@ const PARTICIPANTS = [
     "SmartArmTech",
     "Cleverits",
     "Code & Capital",
+    "Quantum Mind"
 ]
 
 export default function CTASection() {
