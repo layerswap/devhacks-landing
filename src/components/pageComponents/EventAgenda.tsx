@@ -51,10 +51,10 @@ const EventAgenda = () => {
       day: "Հուլիսի 6",
       events: [
         { time: "08:30", activity: "Նախաճաշ", icon: Sandwich },
-        { time: "10:30", activity: "Նախագծերի հանձնման վերջնաժամկետ", icon: BookX },
-        { time: "11:00", activity: "Դեմո ներկայացումներ", icon: SquareDashedBottomCode },
-        { time: "13:00", activity: "Սուրճի ընդմիջում և լանչ", icon: Coffee },
-        { time: "13:30", activity: "Դեմո ներկայացումներ (շարունակություն)", icon: SquareDashedBottomCode },
+        { time: "10:00", activity: "Նախագծերի հանձնման վերջնաժամկետ", icon: BookX },
+        { time: "10:30", activity: "Դեմո ներկայացումներ", icon: SquareDashedBottomCode },
+        { time: "12:30", activity: "Սուրճի ընդմիջում և լանչ", icon: Coffee },
+        { time: "13:00", activity: "Դեմո ներկայացումներ (շարունակություն)", icon: SquareDashedBottomCode },
         { time: "15:00", activity: "Հաղթողների ընտրություն", icon: Trophy },
         { time: "15:00", activity: "Մասնակիցների տեղափոխում Շառլ Ազնավուրի անվան մշակույթի պալատ", icon: Bus },
         { time: "16:50", activity: "Հաղթողների հայտարարում և մրցանակաբաշխություն", icon: MicVocal }
