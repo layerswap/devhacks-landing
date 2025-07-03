@@ -29,7 +29,7 @@ const rules = [
         ]
     },
     {
-        title: "Այլ կանոններ",
+        title: "ԱՅԼ ԿԱՆՈՆՆԵՐ",
         content: [
             "Հարգալից վերաբերմունք ցուցաբերել մյուս մասնակիցների, կազմակերպիչների և կամավորների նկատմամբ",
             "Հարգել այլ թիմերի տարածքը և չխանգարել՝ առանց իրենց համաձայնության և թույլտվության",
@@ -55,7 +55,7 @@ const Rules = () => {
             <div className="space-x-2 space-y-10 p-6 sm:p-10 h-full bg-darkblue-800 bg-opacity-50 backdrop-blur-md rounded-xl max-w-2xl mx-auto lg:max-w-none w-full lg:col-span-5">
                 {rules.map((rule, index) => (
                     <div key={index} className="space-y-1">
-                        <h2 className="font-semibold text-lg sm:text-xl">{rule.title}</h2>
+                        <h2 className="font-semibold text-lg sm:text-xl text-primary">{rule.title}</h2>
                         <ul className="text-base sm:text-lg list-disc pl-5">
                             {rule.content.map((item, idx) => (
                                 <li key={idx}>{item}</li>
