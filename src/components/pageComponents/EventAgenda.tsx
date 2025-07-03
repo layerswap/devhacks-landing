@@ -37,8 +37,8 @@ const EventAgenda = () => {
       date: "2025-07-05",
       day: "Հուլիսի 5",
       events: [
-        { time: "08:00", activity: "Նախաճաշ", icon: Sandwich },
-        { time: "09:00", activity: "Հեքինգ", icon: LaptopMinimalCheck },
+        { time: "08:30", activity: "Նախաճաշ", icon: Sandwich },
+        { time: "09:30", activity: "Հեքինգ", icon: LaptopMinimalCheck },
         { time: "14:00", activity: "Լանչ", icon: Hamburger },
         { time: "15:00", activity: "Հեքինգ", icon: LaptopMinimalCheck },
         { time: "18:00", activity: "Նախագծերի հանձնման մեկնարկ", icon: BookUp },
