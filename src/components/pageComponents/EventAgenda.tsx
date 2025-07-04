@@ -131,43 +131,6 @@ const EventAgenda = () => {
           {/* <DevLogo className='h-40 w-auto' /> */}
           Օրակարգ
         </div>
-        <div className="relative my-6 mx-auto max-w-2xl">
-          <div className='absolute -left-[30px] -top-8 z-0'>
-            <HornsSvg className="w-[80px] h-auto" />
-          </div>
-          <div className='absolute -right-[146px] top-0 z-0'>
-            <TailSvg className="w-[200px] h-auto" />
-          </div>
-          <div className="relative z-10 bg-darkblue-800 bg-opacity-50 backdrop-blur-md rounded-xl min-h-[96px] p-3 sm:p-4 flex flex-col justify-center items-center my-6 mx-auto max-w-2xl">
-            <p className="text-white text-sm sm:text-4xl  font-semibold pb-6">Մնաց</p>
-            <div className="w-full flex justify-center sm:scale-100">
-              {
-                mounted && <FlipClockCountdown
-                  to={new Date('2025-07-04T06:00:00Z')}
-                  labels={['Օր', 'Ժամ', 'Րոպե', 'Վայրկյան']}
-                  labelStyle={{
-                    fontSize: 12,
-                    fontWeight: 500,
-                    textTransform: 'uppercase',
-                    color: 'white'
-                  }}
-                  digitBlockStyle={{
-                    backgroundColor: '#252525',
-                    color: '#974DF7',
-                    fontSize: isMobile ? 16 : 32,
-                    borderRadius: 8,
-                    height: isMobile ? 40 : undefined,
-                    width: isMobile ? 25 : undefined
-                  }}
-                  dividerStyle={{ color: '#111100' }}
-                  separatorStyle={{ color: 'white' }}
-                  duration={0.6}
-                  hideOnComplete={true}
-                />
-              }
-            </div>
-          </div>
-        </div>
         {/* Tower Structure */}
         <div className="relative max-w-2xl mx-auto">
           {/* Tower top */}
