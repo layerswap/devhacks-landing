@@ -40,7 +40,7 @@ const Layout: FC<Props> = ({ children }) => {
             <Script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" />
             <div className="relative isolate overflow-hidden ">
 
-                <AnimatedLogo />
+                {/* <AnimatedLogo /> */}
 
                 <svg
                     className="absolute inset-0 -z-20 h-full w-full stroke-gray-700/70 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"

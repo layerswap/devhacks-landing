@@ -1,17 +1,17 @@
-import CTASection from "./CTASection"
-import Conditions from "./Conditions"
+// import CTASection from "./CTASection"
+// import Conditions from "./Conditions"
+// import Partners from "./Partners"
+// import PrizePool from "./PrizePool"
+// import Timeline from "./Timeline"
+// import FAQ from "./faq"
 import Hero from "./Hero"
-import Partners from "./Partners"
-import PrizePool from "./PrizePool"
-import Timeline from "./Timeline"
-import FAQ from "./faq"
-
+import DevHighlights from "./DevHighlights"
 const Home = () => {
     return (
         <>
             <Hero />
 
-            <Timeline />
+            {/* <Timeline />
 
             <Conditions />
 
@@ -21,7 +21,9 @@ const Home = () => {
 
             <Partners />
 
-            <FAQ />
+            <FAQ /> */}
+
+            <DevHighlights />
         </>
     )
 }
