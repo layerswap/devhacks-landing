@@ -20,7 +20,7 @@ const Hero = () => {
     }, [])
 
     return (
-        <div className="overflow-hidden h-screen flex flex-col justify-center items-center">
+        <div className="overflow-hidden h-[100svh] flex flex-col justify-center items-center">
             <div className="mx-auto max-w-6xl px-6 pb-24 sm:pb-32 flex flex-col text-center space-y-6 pt-20 lg:px-8 lg:pt-44 2xl:pt-0 2xl:pb-0 w-full">
                 <DevLogo className=" block w-72 sm:w-[400px] h-auto mx-auto" />
                 <div>
@@ -42,7 +42,7 @@ const Hero = () => {
                             <Calendar className="h-4 w-auto" /> Հուլիսի 4 10:00 AM</Link> | <Link href="https://goo.gl/maps/zUBaeyTY6pxjjfe98" target="_blank" className="underline hover:no-underline inline-flex items-center gap-1"><MapPin className="h-4 w-auto" /> Վանաձոր, ՎՏԿ
                         </Link>
                     </p> */}
-                    <div className={`${hide && 'opacity-0'} left-[calc(50%-15px)] top-[90vh] absolute transition-all duration-200`}>
+                    <div className={`${hide && 'opacity-0'} left-[calc(50%-15px)] top-[90svh] m:top-[90vh] absolute transition-all duration-200`}>
                         <div className="scrolldown ">
                             <svg className="mx-auto" height="30" width="10">
                                 <circle className="scrolldown-p1" cx="5" cy="15" r="2" />
