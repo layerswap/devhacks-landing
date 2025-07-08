@@ -67,9 +67,9 @@ export default function DevHighlights() {
                                                 <AccordionButton className='flex justify-between w-full items-center'>
                                                     <div className="flex  items-start space-x-1 min-w-0">
                                                         <span className="w-6 text-left text-gray-400">{idx + 1}</span>
-                                                        <span className={`${idx < 7 ? "text-white" : "text-primary-text"} truncate flex items-center gap-0.5`}>
+                                                        <span className={`${idx < 7 ? "text-white" : "text-primary-text"} flex items-center gap-0.5`}>
                                                             {participant.reward && <Award className='h-5 w-5 text-primary' />}
-                                                            <span>
+                                                            <span className='truncate max-w-[160px] sm:max-w-none'>
                                                                 {participant.teamName}
                                                             </span>
                                                         </span>
